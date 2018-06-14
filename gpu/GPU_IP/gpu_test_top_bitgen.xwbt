@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\brock\Documents\18545\gbc\gpu\GPU_IP\gpu_test_top.ncd
+OUTFILE=C:\Users\brock\Documents\18545\gbc\gpu\GPU_IP\gpu_test_top.bit
+FAMILY=Virtex5
+PART=xc5vlx110t-1ff1136
+WORKINGDIR=C:\Users\brock\Documents\18545\gbc\gpu\GPU_IP
+LICENSE=ISE
+USER_INFO=174679548_176449548_210570730_342

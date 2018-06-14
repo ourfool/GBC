@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj top -o C:/Users/ash/Documents/18545/gbc/top/ise/bram_cart.tfi -lib work C:/Users/ash/Documents/18545/gbc/memory/bram//bram_cart.v -module bram_cart -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

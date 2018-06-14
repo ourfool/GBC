@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<report-views version="2.0" >
+ <header>
+  <ImplementationReportsDirectory>C:/Users/ash/Documents/18545/gbc/top/ise\</ImplementationReportsDirectory>
+  <ModuleName>gameboycolor</ModuleName>
+  <DateModified>2014-11-02T17:46:47</DateModified>
+  <SavedFilePath>C:/Users/ash/Documents/18545/gbc/top/ise/iseconfig/cpu_mem_integration.xreport</SavedFilePath>
+  <DateInitialized>2014-11-02T17:08:06</DateInitialized>
+  <EnableMessageFiltering>false</EnableMessageFiltering>
+  <SummaryTimeStamp>2014-11-02T17:46:08</SummaryTimeStamp>
+ </header>
+</report-views>

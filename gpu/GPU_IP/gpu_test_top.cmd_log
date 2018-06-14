@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/brock/Documents/18545/gbc/gpu/GPU_IP/gpu_test_top.xst" -ofn "C:/Users/brock/Documents/18545/gbc/gpu/GPU_IP/gpu_test_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/brock/Documents/18545/gbc/gpu/gpu_top.ucf -uc C:/Users/brock/Documents/18545/gbc/gpu/gpu_test_top.ucf -p xc5vlx110t-ff1136-1 gpu_test_top.ngc gpu_test_top.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o gpu_test_top_map.ncd gpu_test_top.ngd gpu_test_top.pcf 
+par -w -intstyle ise -ol std -mt 4 gpu_test_top_map.ncd gpu_test_top.ncd gpu_test_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml gpu_test_top.twx gpu_test_top.ncd -o gpu_test_top.twr gpu_test_top.pcf 
+bitgen -intstyle ise -f gpu_test_top.ut gpu_test_top.ncd 

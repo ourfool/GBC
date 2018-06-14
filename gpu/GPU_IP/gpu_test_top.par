@@ -1,0 +1,148 @@
+Release 14.7 par P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+HALLERTAU::  Mon Nov 24 11:13:31 2014
+
+par -w -intstyle ise -ol std -mt 4 gpu_test_top_map.ncd gpu_test_top.ncd
+gpu_test_top.pcf 
+
+
+Constraints file: gpu_test_top.pcf.
+Loading device for application Rf_Device from file '5vlx110t.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
+   "gpu_test_top" is an NCD, version 3.2, device xc5vlx110t, package ff1136, speed -1
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+INFO:Security:56 - Part 'xc5vlx110t' is not a WebPack part.
+WARNING:Security:42 - Your license support version '2014.11' for ISE expires in 6 days after which you will not qualify
+for Xilinx software updates or new releases.
+
+----------------------------------------------------------------------
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 0.950 Volts. (default - Range: 0.950 to 1.050 Volts)
+
+INFO:Par:282 - No user timing constraints were detected or you have set the option to ignore timing constraints ("par
+   -x"). Place and Route will run in "Performance Evaluation Mode" to automatically improve the performance of all
+   internal clocks in this design. Because there are not defined timing requirements, a timing score will not be
+   reported in the PAR report in this mode. The PAR timing summary will list the performance achieved for each clock.
+   Note: For the fastest runtime, set the effort level to "std".  For best performance, set the effort level to "high".
+
+Device speed data version:  "PRODUCTION 1.73 2013-10-13".
+
+
+
+Device Utilization Summary:
+
+   Number of BUFGs                           5 out of 32     15%
+   Number of BUFGCTRLs                       2 out of 32      6%
+   Number of DCM_ADVs                        2 out of 12     16%
+   Number of DSP48Es                         1 out of 64      1%
+   Number of IDELAYCTRLs                     1 out of 22      4%
+   Number of External IOBs                  24 out of 640     3%
+      Number of LOCed IOBs                  24 out of 24    100%
+
+   Number of IODELAYs                        2 out of 800     1%
+   Number of OLOGICs                        14 out of 800     1%
+   Number of RAMB18X2s                       1 out of 148     1%
+   Number of RAMB36_EXPs                    34 out of 148    22%
+   Number of Slices                        910 out of 17280   5%
+   Number of Slice Registers              1515 out of 69120   2%
+      Number used as Flip Flops           1515
+      Number used as Latches                 0
+      Number used as LatchThrus              0
+
+   Number of Slice LUTS                   2764 out of 69120   3%
+   Number of Slice LUT-Flip Flop pairs    2828 out of 69120   4%
+
+
+Overall effort level (-ol):   Standard 
+Router effort level (-rl):    Standard 
+
+WARNING:Par:545 - Multi-threading ("-mt" option) is not supported for the Performance Evaluation Mode. PAR will use only
+   one processor.
+
+Starting initial Timing Analysis.  REAL time: 8 secs 
+Finished initial Timing Analysis.  REAL time: 8 secs 
+
+Starting Router
+
+
+Phase  1  : 18632 unrouted;      REAL time: 9 secs 
+
+Phase  2  : 15379 unrouted;      REAL time: 10 secs 
+
+Phase  3  : 5200 unrouted;      REAL time: 12 secs 
+
+Phase  4  : 5239 unrouted; (Par is working to improve performance)     REAL time: 17 secs 
+
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 20 secs 
+
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 20 secs 
+
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 20 secs 
+
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 20 secs 
+
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 20 secs 
+
+Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 20 secs 
+Total REAL time to Router completion: 20 secs 
+Total CPU time to Router completion: 21 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+INFO:Par:459 - The Clock Report is not displayed in the non timing-driven mode.
+Timing Score: 0 (Setup: 0, Hold: 0)
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net gpu | SETUP       |         N/A|     9.658ns|     N/A|           0
+  /gpuclk                                   | HOLD        |     0.463ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net CLK | SETUP       |         N/A|     7.686ns|     N/A|           0
+  _33MHZ_FPGA_IBUFG                         | HOLD        |     0.249ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net gpu | SETUP       |         N/A|     1.430ns|     N/A|           0
+  /setup/idelay_ctrl_mod/clk200             | HOLD        |     0.460ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+
+
+All constraints were met.
+INFO:Timing:2761 - N/A entries in the Constraints List may indicate that the 
+   constraint is not analyzed due to the following: No paths covered by this 
+   constraint; Other constraints intersect with this constraint; or This 
+   constraint was disabled by a Path Tracing Control. Please run the Timespec 
+   Interaction Report (TSI) via command line (trce tsi) or Timing Analyzer GUI.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 24 secs 
+Total CPU time to PAR completion: 25 secs 
+
+Peak Memory Usage:  565 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 1
+Number of info messages: 2
+
+Writing design to file gpu_test_top.ncd
+
+
+
+PAR done!

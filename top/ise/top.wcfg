@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/ash/Documents/18545/gbc/top/ise/gameboycolorsim_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="gameboycolorsim" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="25" />
+   <wvobject fp_name="/gameboycolorsim/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+      <obj_property name="label">/gameboycolorsim/clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gameboycolorsim/clock33" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock33</obj_property>
+      <obj_property name="ObjectShortName">clock33</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gameboycolorsim/clock27" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock27</obj_property>
+      <obj_property name="ObjectShortName">clock27</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gameboycolorsim/gbc/clock_main" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock_main</obj_property>
+      <obj_property name="ObjectShortName">clock_main</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gameboycolorsim/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gameboycolorsim/gbc/synch_reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">synch_reset</obj_property>
+      <obj_property name="ObjectShortName">synch_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gameboycolorsim/gbc/router/O_IOREG_ADDR" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">O_IOREG_ADDR[15:0]</obj_property>
+      <obj_property name="ObjectShortName">O_IOREG_ADDR[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gameboycolorsim/gbc/router/O_IOREG_RE_L" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">O_IOREG_RE_L</obj_property>
+      <obj_property name="ObjectShortName">O_IOREG_RE_L</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gameboycolorsim/gbc/router/O_IOREG_WE_L" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">O_IOREG_WE_L</obj_property>
+      <obj_property name="ObjectShortName">O_IOREG_WE_L</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gameboycolorsim/gbc/router/ioreg_data_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ioreg_data_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ioreg_data_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gameboycolorsim/gbc/addr_ext" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr_ext[15:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_ext[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gameboycolorsim/gbc/data_ext" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_ext[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_ext[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gameboycolorsim/gbc/gbc_cpu/A_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">A_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">A_data[7:0]</obj_property>
+      <obj_property name="label">/gameboycolorsim/gbc/gbc_cpu/A_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gameboycolorsim/gbc/gbc_cpu/F_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">F_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">F_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gameboycolorsim/gbc/gbc_cpu/gb80_regfile/mem[4]" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[4,15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[4,15:0]</obj_property>
+      <obj_property name="label">PC</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gameboycolorsim/gbc/gbc_cpu/gb80_decode/instruction" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instruction[7:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gameboycolorsim/gbc/gbc_cpu/gb80_decode/cycle" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cycle[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cycle[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gameboycolorsim/gbc/Timer/TIMA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">TIMA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">TIMA[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gameboycolorsim/gbc/gbc_cpu/IF_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IF_data[4:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_data[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gameboycolorsim/gbc/gbc_cpu/IE_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IE_data[4:0]</obj_property>
+      <obj_property name="ObjectShortName">IE_data[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gameboycolorsim/gbc/gbc_cpu/IME_reg/d" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">d[0:0]</obj_property>
+      <obj_property name="ObjectShortName">d[0:0]</obj_property>
+      <obj_property name="label">IME</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gameboycolorsim/gbc/gbc_cpu/gb80_regfile/mem[3]" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[3,15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[3,15:0]</obj_property>
+      <obj_property name="label">SP</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gameboycolorsim/gbc/Timer/DIV" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DIV[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DIV[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gameboycolorsim/gbc/Timer/TMA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">TMA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">TMA[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/gameboycolorsim/gbc/Timer/TAC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">TAC[2:0]</obj_property>
+      <obj_property name="ObjectShortName">TAC[2:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+</wave_config>

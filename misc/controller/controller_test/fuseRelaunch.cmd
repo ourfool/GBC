@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/brock/Documents/18545/gbc/controller/controller_test/controller_interface_test_isim_beh.exe" -prj "C:/Users/brock/Documents/18545/gbc/controller/controller_test/controller_interface_test_beh.prj" "work.controller_interface_test" "work.glbl" 

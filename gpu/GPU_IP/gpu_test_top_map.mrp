@@ -1,0 +1,348 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Mapping Report File for Design 'gpu_test_top'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol
+high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr
+off -lc off -power off -o gpu_test_top_map.ncd gpu_test_top.ngd gpu_test_top.pcf
+ 
+Target Device  : xc5vlx110t
+Target Package : ff1136
+Target Speed   : -1
+Mapper Version : virtex5 -- $Revision: 1.55 $
+Mapped Date    : Mon Nov 24 11:12:40 2014
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    0
+Slice Logic Utilization:
+  Number of Slice Registers:                 1,515 out of  69,120    2%
+    Number used as Flip Flops:               1,515
+  Number of Slice LUTs:                      2,764 out of  69,120    3%
+    Number used as logic:                    2,758 out of  69,120    3%
+      Number using O6 output only:           2,555
+      Number using O5 output only:              90
+      Number using O5 and O6:                  113
+    Number used as exclusive route-thru:         6
+  Number of route-thrus:                       100
+    Number using O6 output only:                96
+    Number using O5 output only:                 4
+
+Slice Logic Distribution:
+  Number of occupied Slices:                   910 out of  17,280    5%
+  Number of LUT Flip Flop pairs used:        2,828
+    Number with an unused Flip Flop:         1,313 out of   2,828   46%
+    Number with an unused LUT:                  64 out of   2,828    2%
+    Number of fully used LUT-FF pairs:       1,451 out of   2,828   51%
+    Number of unique control sets:              47
+    Number of slice register sites lost
+      to control set restrictions:              37 out of  69,120    1%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+  OVERMAPPING of BRAM resources should be ignored if the design is
+  over-mapped for a non-BRAM resource or if placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                        24 out of     640    3%
+    Number of LOCed IOBs:                       24 out of      24  100%
+    IOB Flip Flops:                             14
+
+Specific Feature Utilization:
+  Number of BlockRAM/FIFO:                      35 out of     148   23%
+    Number using BlockRAM only:                 35
+    Total primitives used:
+      Number of 36k BlockRAM used:              34
+      Number of 18k BlockRAM used:               1
+    Total Memory used (KB):                  1,242 out of   5,328   23%
+  Number of BUFG/BUFGCTRLs:                      7 out of      32   21%
+    Number used as BUFGs:                        5
+    Number used as BUFGCTRLs:                    2
+  Number of IDELAYCTRLs:                         1 out of      22    4%
+  Number of DCM_ADVs:                            2 out of      12   16%
+  Number of DSP48Es:                             1 out of      64    1%
+
+Average Fanout of Non-Clock Nets:                5.44
+
+Peak Memory Usage:  654 MB
+Total REAL time to MAP completion:  48 secs 
+Total CPU time to MAP completion:   48 secs 
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:Security:42 - Your license support version '2014.11' for ISE expires in
+6 days after which you will not qualify for Xilinx software updates or new
+releases.
+
+Section 3 - Informational
+-------------------------
+INFO:Security:56 - Part 'xc5vlx110t' is not a WebPack part.
+INFO:LIT:243 - Logical network gpu/converter/buffer1/douta<15> has no load.
+INFO:LIT:395 - The above info message is repeated 1 more times for the following
+   (max. 5 shown):
+   gpu/converter/buffer2/douta<15>
+   To see the details of these info messages, please use the -detail switch.
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+INFO:Pack:1716 - Initializing temperature to 85.000 Celsius. (default - Range:
+   0.000 to 85.000 Celsius)
+INFO:Pack:1720 - Initializing voltage to 0.950 Volts. (default - Range: 0.950 to
+   1.050 Volts)
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+INFO:Pack:1650 - Map created a placed design.
+INFO:PhysDesignRules:1437 - To achieve optimal frequency synthesis performance
+   with the CLKFX and CLKFX180 outputs of the DCM_ADV comp
+   gpu/setup/clk31p5_dcm_inst/DCM_31p5_INST, consult the device Data Sheet.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+   6 block(s) removed
+  12 block(s) optimized away
+  49 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+The signal "gpu/converter/buffer1/douta<15>" is sourceless and has been removed.
+The signal
+"gpu/converter/buffer1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/va
+lid.cstr/ramloop[13].ram.ram_douta<8>" is sourceless and has been removed.
+ Sourceless block
+"gpu/converter/buffer1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/va
+lid.cstr/has_mux_a.A/Mmux_dout_mux_35" (ROM) removed.
+  The signal
+"gpu/converter/buffer1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/va
+lid.cstr/has_mux_a.A/Mmux_dout_mux_35" is sourceless and has been removed.
+   Sourceless block
+"gpu/converter/buffer1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/va
+lid.cstr/has_mux_a.A/Mmux_dout_mux_2_f7_4" (MUX) removed.
+The signal
+"gpu/converter/buffer1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/va
+lid.cstr/ramloop[14].ram.ram_douta<8>" is sourceless and has been removed.
+The signal
+"gpu/converter/buffer1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/va
+lid.cstr/ramloop[12].ram.ram_douta<8>" is sourceless and has been removed.
+The signal
+"gpu/converter/buffer1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/va
+lid.cstr/ramloop[11].ram.ram_douta<8>" is sourceless and has been removed.
+The signal
+"gpu/converter/buffer1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/va
+lid.cstr/ramloop[9].ram.ram_douta<8>" is sourceless and has been removed.
+ Sourceless block
+"gpu/converter/buffer1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/va
+lid.cstr/has_mux_a.A/Mmux_dout_mux_45" (ROM) removed.
+  The signal
+"gpu/converter/buffer1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/va
+lid.cstr/has_mux_a.A/Mmux_dout_mux_45" is sourceless and has been removed.
+The signal
+"gpu/converter/buffer1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/va
+lid.cstr/ramloop[10].ram.ram_douta<8>" is sourceless and has been removed.
+The signal
+"gpu/converter/buffer1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/va
+lid.cstr/ramloop[8].ram.ram_douta<8>" is sourceless and has been removed.
+The signal
+"gpu/converter/buffer1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/va
+lid.cstr/ramloop[7].ram.ram_douta<8>" is sourceless and has been removed.
+The signal "gpu/converter/buffer2/douta<15>" is sourceless and has been removed.
+The signal
+"gpu/converter/buffer2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/va
+lid.cstr/ramloop[13].ram.ram_douta<8>" is sourceless and has been removed.
+ Sourceless block
+"gpu/converter/buffer2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/va
+lid.cstr/has_mux_a.A/Mmux_dout_mux_35" (ROM) removed.
+  The signal
+"gpu/converter/buffer2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/va
+lid.cstr/has_mux_a.A/Mmux_dout_mux_35" is sourceless and has been removed.
+   Sourceless block
+"gpu/converter/buffer2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/va
+lid.cstr/has_mux_a.A/Mmux_dout_mux_2_f7_4" (MUX) removed.
+The signal
+"gpu/converter/buffer2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/va
+lid.cstr/ramloop[14].ram.ram_douta<8>" is sourceless and has been removed.
+The signal
+"gpu/converter/buffer2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/va
+lid.cstr/ramloop[12].ram.ram_douta<8>" is sourceless and has been removed.
+The signal
+"gpu/converter/buffer2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/va
+lid.cstr/ramloop[11].ram.ram_douta<8>" is sourceless and has been removed.
+The signal
+"gpu/converter/buffer2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/va
+lid.cstr/ramloop[9].ram.ram_douta<8>" is sourceless and has been removed.
+ Sourceless block
+"gpu/converter/buffer2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/va
+lid.cstr/has_mux_a.A/Mmux_dout_mux_45" (ROM) removed.
+  The signal
+"gpu/converter/buffer2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/va
+lid.cstr/has_mux_a.A/Mmux_dout_mux_45" is sourceless and has been removed.
+The signal
+"gpu/converter/buffer2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/va
+lid.cstr/ramloop[10].ram.ram_douta<8>" is sourceless and has been removed.
+The signal
+"gpu/converter/buffer2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/va
+lid.cstr/ramloop[8].ram.ram_douta<8>" is sourceless and has been removed.
+The signal
+"gpu/converter/buffer2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/va
+lid.cstr/ramloop[7].ram.ram_douta<8>" is sourceless and has been removed.
+The signal "gpu/video/oam/web<0>" is sourceless and has been removed.
+The signal "gpu/video/oam/dinb<7>" is sourceless and has been removed.
+The signal "gpu/video/oam/dinb<6>" is sourceless and has been removed.
+The signal "gpu/video/oam/dinb<5>" is sourceless and has been removed.
+The signal "gpu/video/oam/dinb<4>" is sourceless and has been removed.
+The signal "gpu/video/oam/dinb<3>" is sourceless and has been removed.
+The signal "gpu/video/oam/dinb<2>" is sourceless and has been removed.
+The signal "gpu/video/oam/dinb<1>" is sourceless and has been removed.
+The signal "gpu/video/oam/dinb<0>" is sourceless and has been removed.
+The signal "gpu/video/vram/web<0>" is sourceless and has been removed.
+The signal "gpu/video/vram/dinb<7>" is sourceless and has been removed.
+The signal "gpu/video/vram/dinb<6>" is sourceless and has been removed.
+The signal "gpu/video/vram/dinb<5>" is sourceless and has been removed.
+The signal "gpu/video/vram/dinb<4>" is sourceless and has been removed.
+The signal "gpu/video/vram/dinb<3>" is sourceless and has been removed.
+The signal "gpu/video/vram/dinb<2>" is sourceless and has been removed.
+The signal "gpu/video/vram/dinb<1>" is sourceless and has been removed.
+The signal "gpu/video/vram/dinb<0>" is sourceless and has been removed.
+The signal "gpu/video/vram2/web<0>" is sourceless and has been removed.
+The signal "gpu/video/vram2/dinb<7>" is sourceless and has been removed.
+The signal "gpu/video/vram2/dinb<6>" is sourceless and has been removed.
+The signal "gpu/video/vram2/dinb<5>" is sourceless and has been removed.
+The signal "gpu/video/vram2/dinb<4>" is sourceless and has been removed.
+The signal "gpu/video/vram2/dinb<3>" is sourceless and has been removed.
+The signal "gpu/video/vram2/dinb<2>" is sourceless and has been removed.
+The signal "gpu/video/vram2/dinb<1>" is sourceless and has been removed.
+The signal "gpu/video/vram2/dinb<0>" is sourceless and has been removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		XST_GND
+VCC 		XST_VCC
+GND 		gpu/converter/buffer1/XST_GND
+VCC 		gpu/converter/buffer1/XST_VCC
+GND 		gpu/converter/buffer2/XST_GND
+VCC 		gpu/converter/buffer2/XST_VCC
+GND 		gpu/video/oam/XST_GND
+VCC 		gpu/video/oam/XST_VCC
+GND 		gpu/video/vram/XST_GND
+VCC 		gpu/video/vram/XST_VCC
+GND 		gpu/video/vram2/XST_GND
+VCC 		gpu/video/vram2/XST_VCC
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| CLK_27MHZ_FPGA                     | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| CLK_33MHZ_FPGA                     | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| GPIO_SW_C                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| USER_CLK                           | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| dvi_d<0>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW | ODDR         |          |          |
+| dvi_d<1>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW | ODDR         |          |          |
+| dvi_d<2>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW | ODDR         |          |          |
+| dvi_d<3>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW | ODDR         |          |          |
+| dvi_d<4>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW | ODDR         |          |          |
+| dvi_d<5>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW | ODDR         |          |          |
+| dvi_d<6>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW | ODDR         |          |          |
+| dvi_d<7>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW | ODDR         |          |          |
+| dvi_d<8>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW | ODDR         |          |          |
+| dvi_d<9>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW | ODDR         |          |          |
+| dvi_d<10>                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW | ODDR         |          |          |
+| dvi_d<11>                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW | ODDR         |          |          |
+| dvi_de                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| dvi_hs                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| dvi_reset_b                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| dvi_scl                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| dvi_sda                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| dvi_vs                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| dvi_xclk_n                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW | ODDR         |          | FIXED    |
+| dvi_xclk_p                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW | ODDR         |          | FIXED    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+A logic-level (pre-route) timing report can be generated by using Xilinx static
+timing analysis tools, Timing Analyzer (GUI) or TRCE (command line), with the
+mapped NCD and PCF files. Please note that this timing report will be generated
+using estimated delay information. For accurate numbers, please generate a
+timing report with the post Place and Route NCD file.
+
+For more information about the Timing Analyzer, consult the Xilinx Timing
+Analyzer Reference Manual; for more information about TRCE, consult the Xilinx
+Command Line Tools User Guide "TRACE" chapter.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 12 - Control Set Information
+------------------------------------
+Use the "-detail" map option to print out Control Set Information.
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
+Use the "-detail" map option to print out the Utilization by Hierarchy section.

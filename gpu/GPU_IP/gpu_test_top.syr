@@ -1,0 +1,1637 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: gpu_test_top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "gpu_test_top.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "gpu_test_top"
+Output Format                      : NGC
+Target Device                      : xc5vlx110t-1-ff1136
+
+---- Source Options
+Top Module Name                    : gpu_test_top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "../x2_dcm.v" in library work
+Compiling verilog file "../ddr2_idelay_ctrl.v" in library work
+Module <x2_dcm> compiled
+Compiling verilog file "../sync_gen.v" in library work
+Module <ddr2_idelay_ctrl> compiled
+Compiling verilog file "../scanline_ram.v" in library work
+Module <sync_gen> compiled
+Compiling verilog file "../iic_init.v" in library work
+Module <scanline_ram> compiled
+Compiling verilog file "ipcore_dir/VRAM2.v" in library work
+Module <iic_init> compiled
+Compiling verilog file "ipcore_dir/VRAM.v" in library work
+Module <VRAM2> compiled
+Compiling verilog file "ipcore_dir/OAM.v" in library work
+Module <VRAM> compiled
+Compiling verilog file "ipcore_dir/framebuffer1.v" in library work
+Module <OAM> compiled
+Compiling verilog file "../divider.v" in library work
+Module <framebuffer1> compiled
+Compiling verilog file "../ddr2_idelay_ctrl_mod.v" in library work
+Module <divider> compiled
+Compiling verilog file "../color_file/color_file.v" in library work
+Compiling verilog include file "../../memory/memory_router/memdef.vh"
+Module <ddr2_idelay_ctrl_mod> compiled
+Compiling verilog file "../clk31p5_dcm.v" in library work
+Module <color_file> compiled
+Compiling verilog file "../video_module.v" in library work
+Module <clk31p5_dcm> compiled
+Compiling verilog file "../video_converter.v" in library work
+Module <video_module> compiled
+Compiling verilog file "../ugly_setup.v" in library work
+Module <video_converter> compiled
+Compiling verilog file "../dvi_module.v" in library work
+Module <ugly_setup> compiled
+Compiling verilog file "../gpu_top.v" in library work
+Module <dvi_module> compiled
+Compiling verilog file "../gpu_test_top.v" in library work
+Module <gpu_top> compiled
+Module <gpu_test_top> compiled
+No errors in compilation
+Analysis of file <"gpu_test_top.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <gpu_test_top> in library <work> with parameters.
+	I_HILO = "00000000000000000000000000000100"
+	I_LCDC = "00000000000000000000000000000001"
+	I_SERIAL = "00000000000000000000000000000011"
+	I_TIMA = "00000000000000000000000000000010"
+	I_VBLANK = "00000000000000000000000000000000"
+
+Analyzing hierarchy for module <gpu_top> in library <work>.
+
+Analyzing hierarchy for module <video_module> in library <work> with parameters.
+	BG_ADDR_STATE = "00000000000000000000000000000001"
+	BG_ADDR_WAIT_STATE = "00000000000000000000000000000010"
+	BG_DATA_STATE = "00000000000000000000000000000011"
+	BG_DATA_WAIT_STATE = "00000000000000000000000000000100"
+	BG_PIXEL_COMPUTE_STATE = "00000000000000000000000000001000"
+	BG_PIXEL_HOLD_STATE = "00000000000000000000000000001100"
+	BG_PIXEL_READ_STATE = "00000000000000000000000000001001"
+	BG_PIXEL_WAIT_STATE = "00000000000000000000000000001010"
+	BG_PIXEL_WRITE_STATE = "00000000000000000000000000001011"
+	HACTIVE_VIDEO = "00000000000000000000000010100000"
+	HBLANK_MODE = "00000000000000000000000000000000"
+	HBLANK_PERIOD = "00000000000000000000000000101001"
+	IDLE_STATE = "00000000000000000000000000000000"
+	LINES = "00000000000000000000000010011010"
+	OAM_ACTIVE = "00000000000000000000000001010000"
+	OAM_LOCK_MODE = "00000000000000000000000000000010"
+	PIXELS = "00000000000000000000000111001000"
+	PIXEL_INCREMENT_STATE = "00000000000000000000000000100000"
+	PIXEL_INDEX_STATE = "00000000000000000000000000011101"
+	PIXEL_OUT_HOLD_STATE = "00000000000000000000000000011111"
+	PIXEL_OUT_STATE = "00000000000000000000000000011110"
+	PIXEL_READ_STATE = "00000000000000000000000000011011"
+	PIXEL_READ_WAIT_STATE = "00000000000000000000000000011100"
+	PIXEL_WAIT_STATE = "00000000000000000000000000011010"
+	RAM_ACTIVE = "00000000000000000000000010101100"
+	RAM_LOCK_MODE = "00000000000000000000000000000011"
+	SPRITE_ATTR_STATE = "00000000000000000000000000001111"
+	SPRITE_ATTR_WAIT_STATE = "00000000000000000000000000010000"
+	SPRITE_DATA_STATE = "00000000000000000000000000010001"
+	SPRITE_DATA_WAIT_STATE = "00000000000000000000000000010010"
+	SPRITE_HOLD_STATE = "00000000000000000000000000011001"
+	SPRITE_PIXEL_COMPUTE_STATE = "00000000000000000000000000010011"
+	SPRITE_PIXEL_DATA_STATE = "00000000000000000000000000010111"
+	SPRITE_PIXEL_DRAW_STATE = "00000000000000000000000000010110"
+	SPRITE_PIXEL_READ_STATE = "00000000000000000000000000010100"
+	SPRITE_PIXEL_WAIT_STATE = "00000000000000000000000000010101"
+	SPRITE_POS_STATE = "00000000000000000000000000001101"
+	SPRITE_POS_WAIT_STATE = "00000000000000000000000000001110"
+	SPRITE_WRITE_STATE = "00000000000000000000000000011000"
+	VACTIVE_VIDEO = "00000000000000000000000010010000"
+	VBLANK_MODE = "00000000000000000000000000000001"
+	VBLANK_PERIOD = "00000000000000000000000000001010"
+
+Analyzing hierarchy for module <video_converter> in library <work> with parameters.
+	GB_SCREEN_HEIGHT = "0010010000"
+	GB_SCREEN_WIDTH = "0010100000"
+	X_OFFSET = "00000000000000000000000010100000"
+	Y_OFFSET = "00000000000000000000000001001100"
+
+Analyzing hierarchy for module <dvi_module> in library <work>.
+
+Analyzing hierarchy for module <ugly_setup> in library <work> with parameters.
+	IODELAY_GRP = "IODELAY_MIG"
+	RST_SYNC_NUM = "00000000000000000000000000011001"
+
+Analyzing hierarchy for module <divider> in library <work> with parameters.
+	DELAY = "00000000000000000000000000001000"
+
+Analyzing hierarchy for module <scanline_ram> in library <work>.
+
+Analyzing hierarchy for module <color_file> in library <work>.
+
+Analyzing hierarchy for module <sync_gen> in library <work> with parameters.
+	XBPORCH = "00000000000000000000000010000000"
+	XFPORCH = "00000000000000000000000000011000"
+	XRES = "00000000000000000000001010000000"
+	XSYNC = "00000000000000000000000000101000"
+	YBPORCH = "00000000000000000000000000011111"
+	YFPORCH = "00000000000000000000000000001011"
+	YRES = "00000000000000000000000111100000"
+	YSYNC = "00000000000000000000000000000010"
+
+Analyzing hierarchy for module <iic_init> in library <work> with parameters.
+	ACK = "1"
+	CLK_FALL = "011"
+	CLK_RATE_MHZ = "00000000000000000000000000011001"
+	CLK_RISE = "101"
+	DATA0 = "11000000"
+	DATA1 = "00001001"
+	DATA2a = "00000110"
+	DATA2b = "00001000"
+	DATA3a = "00100110"
+	DATA3b = "00010110"
+	DATA4a = "10100000"
+	DATA4b = "01100000"
+	IDLE = "000"
+	INIT = "001"
+	REG_ADDR0 = "01001001"
+	REG_ADDR1 = "00100001"
+	REG_ADDR2 = "00110011"
+	REG_ADDR3 = "00110100"
+	REG_ADDR4 = "00110110"
+	SCK_PERIOD_US = "00000000000000000000000000011110"
+	SDA_BUFFER_MSB = "00000000000000000000000000011011"
+	SETUP = "100"
+	SLAVE_ADDR = "1110110"
+	START = "010"
+	START_BIT = "1"
+	STOP_BIT = "0"
+	TRANSITION_CYCLE = "00000000000000000000000101110111"
+	TRANSITION_CYCLE_MSB = "00000000000000000000000000001011"
+	WAIT = "110"
+	WRITE = "0"
+
+Analyzing hierarchy for module <clk31p5_dcm> in library <work>.
+
+Analyzing hierarchy for module <ddr2_idelay_ctrl_mod> in library <work> with parameters.
+	IODELAY_GRP = "IODELAY_MIG"
+	RST_SYNC_NUM = "00000000000000000000000000011001"
+
+Analyzing hierarchy for module <x2_dcm> in library <work>.
+
+Analyzing hierarchy for module <ddr2_idelay_ctrl> in library <work> with parameters.
+	IODELAY_GRP = "IODELAY_MIG"
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <gpu_test_top>.
+	I_HILO = 32'sb00000000000000000000000000000100
+	I_LCDC = 32'sb00000000000000000000000000000001
+	I_SERIAL = 32'sb00000000000000000000000000000011
+	I_TIMA = 32'sb00000000000000000000000000000010
+	I_VBLANK = 32'sb00000000000000000000000000000000
+WARNING:Xst:852 - "../gpu_test_top.v" line 51: Unconnected input port 'switches78' of instance 'gpu' is tied to GND.
+Module <gpu_test_top> is correct for synthesis.
+ 
+Analyzing module <gpu_top> in library <work>.
+Module <gpu_top> is correct for synthesis.
+ 
+Analyzing module <video_module> in library <work>.
+	BG_ADDR_STATE = 32'sb00000000000000000000000000000001
+	BG_ADDR_WAIT_STATE = 32'sb00000000000000000000000000000010
+	BG_DATA_STATE = 32'sb00000000000000000000000000000011
+	BG_DATA_WAIT_STATE = 32'sb00000000000000000000000000000100
+	BG_PIXEL_COMPUTE_STATE = 32'sb00000000000000000000000000001000
+	BG_PIXEL_HOLD_STATE = 32'sb00000000000000000000000000001100
+	BG_PIXEL_READ_STATE = 32'sb00000000000000000000000000001001
+	BG_PIXEL_WAIT_STATE = 32'sb00000000000000000000000000001010
+	BG_PIXEL_WRITE_STATE = 32'sb00000000000000000000000000001011
+	HACTIVE_VIDEO = 32'sb00000000000000000000000010100000
+	HBLANK_MODE = 32'sb00000000000000000000000000000000
+	HBLANK_PERIOD = 32'sb00000000000000000000000000101001
+	IDLE_STATE = 32'sb00000000000000000000000000000000
+	LINES = 32'sb00000000000000000000000010011010
+	OAM_ACTIVE = 32'sb00000000000000000000000001010000
+	OAM_LOCK_MODE = 32'sb00000000000000000000000000000010
+	PIXELS = 32'sb00000000000000000000000111001000
+	PIXEL_INCREMENT_STATE = 32'sb00000000000000000000000000100000
+	PIXEL_INDEX_STATE = 32'sb00000000000000000000000000011101
+	PIXEL_OUT_HOLD_STATE = 32'sb00000000000000000000000000011111
+	PIXEL_OUT_STATE = 32'sb00000000000000000000000000011110
+	PIXEL_READ_STATE = 32'sb00000000000000000000000000011011
+	PIXEL_READ_WAIT_STATE = 32'sb00000000000000000000000000011100
+	PIXEL_WAIT_STATE = 32'sb00000000000000000000000000011010
+	RAM_ACTIVE = 32'sb00000000000000000000000010101100
+	RAM_LOCK_MODE = 32'sb00000000000000000000000000000011
+	SPRITE_ATTR_STATE = 32'sb00000000000000000000000000001111
+	SPRITE_ATTR_WAIT_STATE = 32'sb00000000000000000000000000010000
+	SPRITE_DATA_STATE = 32'sb00000000000000000000000000010001
+	SPRITE_DATA_WAIT_STATE = 32'sb00000000000000000000000000010010
+	SPRITE_HOLD_STATE = 32'sb00000000000000000000000000011001
+	SPRITE_PIXEL_COMPUTE_STATE = 32'sb00000000000000000000000000010011
+	SPRITE_PIXEL_DATA_STATE = 32'sb00000000000000000000000000010111
+	SPRITE_PIXEL_DRAW_STATE = 32'sb00000000000000000000000000010110
+	SPRITE_PIXEL_READ_STATE = 32'sb00000000000000000000000000010100
+	SPRITE_PIXEL_WAIT_STATE = 32'sb00000000000000000000000000010101
+	SPRITE_POS_STATE = 32'sb00000000000000000000000000001101
+	SPRITE_POS_WAIT_STATE = 32'sb00000000000000000000000000001110
+	SPRITE_WRITE_STATE = 32'sb00000000000000000000000000011000
+	VACTIVE_VIDEO = 32'sb00000000000000000000000010010000
+	VBLANK_MODE = 32'sb00000000000000000000000000000001
+	VBLANK_PERIOD = 32'sb00000000000000000000000000001010
+WARNING:Xst:883 - "../video_module.v" line 585: Ignored duplicate item in case statement. 
+WARNING:Xst:2211 - "ipcore_dir/OAM.v" line 244: Instantiating black box module <OAM>.
+WARNING:Xst:2211 - "ipcore_dir/VRAM.v" line 259: Instantiating black box module <VRAM>.
+WARNING:Xst:2211 - "ipcore_dir/VRAM2.v" line 274: Instantiating black box module <VRAM2>.
+Module <video_module> is correct for synthesis.
+ 
+Analyzing module <divider> in library <work>.
+	DELAY = 32'sb00000000000000000000000000001000
+Module <divider> is correct for synthesis.
+ 
+Analyzing module <scanline_ram> in library <work>.
+Module <scanline_ram> is correct for synthesis.
+ 
+Analyzing module <color_file> in library <work>.
+INFO:Xst:1607 - Contents of array <bg_pallete_arr> may be accessed with an index that does not cover the full array size.
+INFO:Xst:1607 - Contents of array <spr_pallete_arr> may be accessed with an index that does not cover the full array size.
+Module <color_file> is correct for synthesis.
+ 
+Analyzing module <video_converter> in library <work>.
+	GB_SCREEN_HEIGHT = 10'b0010010000
+	GB_SCREEN_WIDTH = 10'b0010100000
+	X_OFFSET = 32'sb00000000000000000000000010100000
+	Y_OFFSET = 32'sb00000000000000000000000001001100
+WARNING:Xst:2211 - "ipcore_dir/framebuffer1.v" line 104: Instantiating black box module <framebuffer1>.
+WARNING:Xst:2211 - "ipcore_dir/framebuffer1.v" line 124: Instantiating black box module <framebuffer1>.
+Module <video_converter> is correct for synthesis.
+ 
+    Set user-defined property "CLK_SEL_TYPE =  SYNC" for instance <clock_mux_b1> in unit <video_converter>.
+    Set user-defined property "CLK_SEL_TYPE =  SYNC" for instance <clock_mux_b2> in unit <video_converter>.
+Analyzing module <sync_gen> in library <work>.
+	XBPORCH = 32'sb00000000000000000000000010000000
+	XFPORCH = 32'sb00000000000000000000000000011000
+	XRES = 32'sb00000000000000000000001010000000
+	XSYNC = 32'sb00000000000000000000000000101000
+	YBPORCH = 32'sb00000000000000000000000000011111
+	YFPORCH = 32'sb00000000000000000000000000001011
+	YRES = 32'sb00000000000000000000000111100000
+	YSYNC = 32'sb00000000000000000000000000000010
+Module <sync_gen> is correct for synthesis.
+ 
+Analyzing module <dvi_module> in library <work>.
+Module <dvi_module> is correct for synthesis.
+ 
+    Set user-defined property "DDR_CLK_EDGE =  OPPOSITE_EDGE" for instance <ODDR_dvi_xclk_p> in unit <dvi_module>.
+    Set user-defined property "INIT =  0" for instance <ODDR_dvi_xclk_p> in unit <dvi_module>.
+    Set user-defined property "SRTYPE =  SYNC" for instance <ODDR_dvi_xclk_p> in unit <dvi_module>.
+    Set user-defined property "DDR_CLK_EDGE =  OPPOSITE_EDGE" for instance <ODDR_dvi_xclk_n> in unit <dvi_module>.
+    Set user-defined property "INIT =  0" for instance <ODDR_dvi_xclk_n> in unit <dvi_module>.
+    Set user-defined property "SRTYPE =  SYNC" for instance <ODDR_dvi_xclk_n> in unit <dvi_module>.
+    Set user-defined property "DDR_CLK_EDGE =  OPPOSITE_EDGE" for instance <ODDR_dvi_d_0> in unit <dvi_module>.
+    Set user-defined property "INIT =  0" for instance <ODDR_dvi_d_0> in unit <dvi_module>.
+    Set user-defined property "SRTYPE =  SYNC" for instance <ODDR_dvi_d_0> in unit <dvi_module>.
+    Set user-defined property "DDR_CLK_EDGE =  OPPOSITE_EDGE" for instance <ODDR_dvi_d_1> in unit <dvi_module>.
+    Set user-defined property "INIT =  0" for instance <ODDR_dvi_d_1> in unit <dvi_module>.
+    Set user-defined property "SRTYPE =  SYNC" for instance <ODDR_dvi_d_1> in unit <dvi_module>.
+    Set user-defined property "DDR_CLK_EDGE =  OPPOSITE_EDGE" for instance <ODDR_dvi_d_2> in unit <dvi_module>.
+    Set user-defined property "INIT =  0" for instance <ODDR_dvi_d_2> in unit <dvi_module>.
+    Set user-defined property "SRTYPE =  SYNC" for instance <ODDR_dvi_d_2> in unit <dvi_module>.
+    Set user-defined property "DDR_CLK_EDGE =  OPPOSITE_EDGE" for instance <ODDR_dvi_d_3> in unit <dvi_module>.
+    Set user-defined property "INIT =  0" for instance <ODDR_dvi_d_3> in unit <dvi_module>.
+    Set user-defined property "SRTYPE =  SYNC" for instance <ODDR_dvi_d_3> in unit <dvi_module>.
+    Set user-defined property "DDR_CLK_EDGE =  OPPOSITE_EDGE" for instance <ODDR_dvi_d_4> in unit <dvi_module>.
+    Set user-defined property "INIT =  0" for instance <ODDR_dvi_d_4> in unit <dvi_module>.
+    Set user-defined property "SRTYPE =  SYNC" for instance <ODDR_dvi_d_4> in unit <dvi_module>.
+    Set user-defined property "DDR_CLK_EDGE =  OPPOSITE_EDGE" for instance <ODDR_dvi_d_5> in unit <dvi_module>.
+    Set user-defined property "INIT =  0" for instance <ODDR_dvi_d_5> in unit <dvi_module>.
+    Set user-defined property "SRTYPE =  SYNC" for instance <ODDR_dvi_d_5> in unit <dvi_module>.
+    Set user-defined property "DDR_CLK_EDGE =  OPPOSITE_EDGE" for instance <ODDR_dvi_d_6> in unit <dvi_module>.
+    Set user-defined property "INIT =  0" for instance <ODDR_dvi_d_6> in unit <dvi_module>.
+    Set user-defined property "SRTYPE =  SYNC" for instance <ODDR_dvi_d_6> in unit <dvi_module>.
+    Set user-defined property "DDR_CLK_EDGE =  OPPOSITE_EDGE" for instance <ODDR_dvi_d_7> in unit <dvi_module>.
+    Set user-defined property "INIT =  0" for instance <ODDR_dvi_d_7> in unit <dvi_module>.
+    Set user-defined property "SRTYPE =  SYNC" for instance <ODDR_dvi_d_7> in unit <dvi_module>.
+    Set user-defined property "DDR_CLK_EDGE =  OPPOSITE_EDGE" for instance <ODDR_dvi_d_8> in unit <dvi_module>.
+    Set user-defined property "INIT =  0" for instance <ODDR_dvi_d_8> in unit <dvi_module>.
+    Set user-defined property "SRTYPE =  SYNC" for instance <ODDR_dvi_d_8> in unit <dvi_module>.
+    Set user-defined property "DDR_CLK_EDGE =  OPPOSITE_EDGE" for instance <ODDR_dvi_d_9> in unit <dvi_module>.
+    Set user-defined property "INIT =  0" for instance <ODDR_dvi_d_9> in unit <dvi_module>.
+    Set user-defined property "SRTYPE =  SYNC" for instance <ODDR_dvi_d_9> in unit <dvi_module>.
+    Set user-defined property "DDR_CLK_EDGE =  OPPOSITE_EDGE" for instance <ODDR_dvi_d_10> in unit <dvi_module>.
+    Set user-defined property "INIT =  0" for instance <ODDR_dvi_d_10> in unit <dvi_module>.
+    Set user-defined property "SRTYPE =  SYNC" for instance <ODDR_dvi_d_10> in unit <dvi_module>.
+    Set user-defined property "DDR_CLK_EDGE =  OPPOSITE_EDGE" for instance <ODDR_dvi_d_11> in unit <dvi_module>.
+    Set user-defined property "INIT =  0" for instance <ODDR_dvi_d_11> in unit <dvi_module>.
+    Set user-defined property "SRTYPE =  SYNC" for instance <ODDR_dvi_d_11> in unit <dvi_module>.
+    Set user-defined property "DELAY_SRC =  O" for instance <delay_p> in unit <dvi_module>.
+    Set user-defined property "HIGH_PERFORMANCE_MODE =  TRUE" for instance <delay_p> in unit <dvi_module>.
+    Set user-defined property "IDELAY_TYPE =  FIXED" for instance <delay_p> in unit <dvi_module>.
+    Set user-defined property "IDELAY_VALUE =  0" for instance <delay_p> in unit <dvi_module>.
+    Set user-defined property "IODELAY_GROUP =  IODELAY_MIG" for instance <delay_p> in unit <dvi_module>.
+    Set user-defined property "ODELAY_VALUE =  8" for instance <delay_p> in unit <dvi_module>.
+    Set user-defined property "REFCLK_FREQUENCY =  200.000000" for instance <delay_p> in unit <dvi_module>.
+    Set user-defined property "SIGNAL_PATTERN =  DATA" for instance <delay_p> in unit <dvi_module>.
+    Set user-defined property "DELAY_SRC =  O" for instance <delay_n> in unit <dvi_module>.
+    Set user-defined property "HIGH_PERFORMANCE_MODE =  TRUE" for instance <delay_n> in unit <dvi_module>.
+    Set user-defined property "IDELAY_TYPE =  FIXED" for instance <delay_n> in unit <dvi_module>.
+    Set user-defined property "IDELAY_VALUE =  0" for instance <delay_n> in unit <dvi_module>.
+    Set user-defined property "IODELAY_GROUP =  IODELAY_MIG" for instance <delay_n> in unit <dvi_module>.
+    Set user-defined property "ODELAY_VALUE =  8" for instance <delay_n> in unit <dvi_module>.
+    Set user-defined property "REFCLK_FREQUENCY =  200.000000" for instance <delay_n> in unit <dvi_module>.
+    Set user-defined property "SIGNAL_PATTERN =  DATA" for instance <delay_n> in unit <dvi_module>.
+Analyzing module <iic_init> in library <work>.
+	ACK = 1'b1
+	CLK_FALL = 3'b011
+	CLK_RATE_MHZ = 32'sb00000000000000000000000000011001
+	CLK_RISE = 3'b101
+	DATA0 = 8'b11000000
+	DATA1 = 8'b00001001
+	DATA2a = 8'b00000110
+	DATA2b = 8'b00001000
+	DATA3a = 8'b00100110
+	DATA3b = 8'b00010110
+	DATA4a = 8'b10100000
+	DATA4b = 8'b01100000
+	IDLE = 3'b000
+	INIT = 3'b001
+	REG_ADDR0 = 8'b01001001
+	REG_ADDR1 = 8'b00100001
+	REG_ADDR2 = 8'b00110011
+	REG_ADDR3 = 8'b00110100
+	REG_ADDR4 = 8'b00110110
+	SCK_PERIOD_US = 32'sb00000000000000000000000000011110
+	SDA_BUFFER_MSB = 32'sb00000000000000000000000000011011
+	SETUP = 3'b100
+	SLAVE_ADDR = 7'b1110110
+	START = 3'b010
+	START_BIT = 1'b1
+	STOP_BIT = 1'b0
+	TRANSITION_CYCLE = 32'sb00000000000000000000000101110111
+	TRANSITION_CYCLE_MSB = 32'sb00000000000000000000000000001011
+	WAIT = 3'b110
+	WRITE = 1'b0
+Module <iic_init> is correct for synthesis.
+ 
+Analyzing module <ugly_setup> in library <work>.
+	IODELAY_GRP = "IODELAY_MIG"
+	RST_SYNC_NUM = 32'sb00000000000000000000000000011001
+Module <ugly_setup> is correct for synthesis.
+ 
+Analyzing module <clk31p5_dcm> in library <work>.
+Module <clk31p5_dcm> is correct for synthesis.
+ 
+    Set user-defined property "CLKDV_DIVIDE =  2.000000" for instance <DCM_31p5_INST> in unit <clk31p5_dcm>.
+    Set user-defined property "CLKFX_DIVIDE =  6" for instance <DCM_31p5_INST> in unit <clk31p5_dcm>.
+    Set user-defined property "CLKFX_MULTIPLY =  7" for instance <DCM_31p5_INST> in unit <clk31p5_dcm>.
+    Set user-defined property "CLKIN_DIVIDE_BY_2 =  FALSE" for instance <DCM_31p5_INST> in unit <clk31p5_dcm>.
+    Set user-defined property "CLKIN_PERIOD =  37.037000" for instance <DCM_31p5_INST> in unit <clk31p5_dcm>.
+    Set user-defined property "CLKOUT_PHASE_SHIFT =  NONE" for instance <DCM_31p5_INST> in unit <clk31p5_dcm>.
+    Set user-defined property "CLK_FEEDBACK =  1X" for instance <DCM_31p5_INST> in unit <clk31p5_dcm>.
+    Set user-defined property "DCM_AUTOCALIBRATION =  TRUE" for instance <DCM_31p5_INST> in unit <clk31p5_dcm>.
+    Set user-defined property "DCM_PERFORMANCE_MODE =  MAX_SPEED" for instance <DCM_31p5_INST> in unit <clk31p5_dcm>.
+    Set user-defined property "DESKEW_ADJUST =  SYSTEM_SYNCHRONOUS" for instance <DCM_31p5_INST> in unit <clk31p5_dcm>.
+    Set user-defined property "DFS_FREQUENCY_MODE =  LOW" for instance <DCM_31p5_INST> in unit <clk31p5_dcm>.
+    Set user-defined property "DLL_FREQUENCY_MODE =  LOW" for instance <DCM_31p5_INST> in unit <clk31p5_dcm>.
+    Set user-defined property "DUTY_CYCLE_CORRECTION =  TRUE" for instance <DCM_31p5_INST> in unit <clk31p5_dcm>.
+    Set user-defined property "FACTORY_JF =  F0F0" for instance <DCM_31p5_INST> in unit <clk31p5_dcm>.
+    Set user-defined property "PHASE_SHIFT =  0" for instance <DCM_31p5_INST> in unit <clk31p5_dcm>.
+    Set user-defined property "STARTUP_WAIT =  TRUE" for instance <DCM_31p5_INST> in unit <clk31p5_dcm>.
+Analyzing module <ddr2_idelay_ctrl_mod> in library <work>.
+	IODELAY_GRP = "IODELAY_MIG"
+	RST_SYNC_NUM = 32'sb00000000000000000000000000011001
+Module <ddr2_idelay_ctrl_mod> is correct for synthesis.
+ 
+Analyzing module <x2_dcm> in library <work>.
+Module <x2_dcm> is correct for synthesis.
+ 
+    Set user-defined property "CLKDV_DIVIDE =  2.000000" for instance <DCM_2X_INST> in unit <x2_dcm>.
+    Set user-defined property "CLKFX_DIVIDE =  1" for instance <DCM_2X_INST> in unit <x2_dcm>.
+    Set user-defined property "CLKFX_MULTIPLY =  4" for instance <DCM_2X_INST> in unit <x2_dcm>.
+    Set user-defined property "CLKIN_DIVIDE_BY_2 =  FALSE" for instance <DCM_2X_INST> in unit <x2_dcm>.
+    Set user-defined property "CLKIN_PERIOD =  10.000000" for instance <DCM_2X_INST> in unit <x2_dcm>.
+    Set user-defined property "CLKOUT_PHASE_SHIFT =  NONE" for instance <DCM_2X_INST> in unit <x2_dcm>.
+    Set user-defined property "CLK_FEEDBACK =  1X" for instance <DCM_2X_INST> in unit <x2_dcm>.
+    Set user-defined property "DCM_AUTOCALIBRATION =  TRUE" for instance <DCM_2X_INST> in unit <x2_dcm>.
+    Set user-defined property "DCM_PERFORMANCE_MODE =  MAX_SPEED" for instance <DCM_2X_INST> in unit <x2_dcm>.
+    Set user-defined property "DESKEW_ADJUST =  SYSTEM_SYNCHRONOUS" for instance <DCM_2X_INST> in unit <x2_dcm>.
+    Set user-defined property "DFS_FREQUENCY_MODE =  LOW" for instance <DCM_2X_INST> in unit <x2_dcm>.
+    Set user-defined property "DLL_FREQUENCY_MODE =  LOW" for instance <DCM_2X_INST> in unit <x2_dcm>.
+    Set user-defined property "DUTY_CYCLE_CORRECTION =  TRUE" for instance <DCM_2X_INST> in unit <x2_dcm>.
+    Set user-defined property "FACTORY_JF =  F0F0" for instance <DCM_2X_INST> in unit <x2_dcm>.
+    Set user-defined property "PHASE_SHIFT =  0" for instance <DCM_2X_INST> in unit <x2_dcm>.
+    Set user-defined property "STARTUP_WAIT =  TRUE" for instance <DCM_2X_INST> in unit <x2_dcm>.
+Analyzing module <ddr2_idelay_ctrl> in library <work>.
+	IODELAY_GRP = "IODELAY_MIG"
+Module <ddr2_idelay_ctrl> is correct for synthesis.
+ 
+    Set user-defined property "IODELAY_GROUP =  IODELAY_MIG" for instance <u_idelayctrl> in unit <ddr2_idelay_ctrl>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+INFO:Xst:2679 - Register <i> in unit <video_module> has a constant value of 1000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <VRAM_BANK_SEL> in unit <video_module> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <LCDC> in unit <video_module> has a constant value of 10010001 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <SCY> in unit <video_module> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <SCX> in unit <video_module> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <LYC> in unit <video_module> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <BGP> in unit <video_module> has a constant value of 11111100 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <OBP0> in unit <video_module> has a constant value of 11111111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <OBP1> in unit <video_module> has a constant value of 11111111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <WY> in unit <video_module> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <WX> in unit <video_module> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <STAT_w> in unit <video_module> has a constant value of 00000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <render_background> in unit <video_module> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <sprite_y_size> in unit <video_module> has a constant value of 01000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <sprite_palette> in unit <video_module> has a constant value of 11111111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <int_lcdc_req> in unit <video_module> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<0>> in unit <color_file> has a constant value of 01101111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<1>> in unit <color_file> has a constant value of 11111011 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<2>> in unit <color_file> has a constant value of 01010110 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<3>> in unit <color_file> has a constant value of 10110101 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<4>> in unit <color_file> has a constant value of 00110101 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<5>> in unit <color_file> has a constant value of 10101101 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<6>> in unit <color_file> has a constant value of 00011100 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<7>> in unit <color_file> has a constant value of 11100111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<8>> in unit <color_file> has a constant value of 01101111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<9>> in unit <color_file> has a constant value of 11111011 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<10>> in unit <color_file> has a constant value of 01100010 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<11>> in unit <color_file> has a constant value of 01111111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<12>> in unit <color_file> has a constant value of 00011001 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<13>> in unit <color_file> has a constant value of 01011110 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<14>> in unit <color_file> has a constant value of 00011100 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<15>> in unit <color_file> has a constant value of 11100111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<16>> in unit <color_file> has a constant value of 00101011 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<17>> in unit <color_file> has a constant value of 11110110 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<18>> in unit <color_file> has a constant value of 00000111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<19>> in unit <color_file> has a constant value of 00101100 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<20>> in unit <color_file> has a constant value of 00000001 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<21>> in unit <color_file> has a constant value of 11000101 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<22>> in unit <color_file> has a constant value of 00011100 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<23>> in unit <color_file> has a constant value of 11100111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<24>> in unit <color_file> has a constant value of 01111110 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<25>> in unit <color_file> has a constant value of 11110111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<26>> in unit <color_file> has a constant value of 01111110 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<27>> in unit <color_file> has a constant value of 01110010 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<28>> in unit <color_file> has a constant value of 01111101 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<29>> in unit <color_file> has a constant value of 10001101 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<30>> in unit <color_file> has a constant value of 00011100 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<31>> in unit <color_file> has a constant value of 11100111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<32>> in unit <color_file> has a constant value of 01101111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<33>> in unit <color_file> has a constant value of 11111011 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<34>> in unit <color_file> has a constant value of 00011111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<35>> in unit <color_file> has a constant value of 11111111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<36>> in unit <color_file> has a constant value of 00000110 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<37>> in unit <color_file> has a constant value of 00011111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<38>> in unit <color_file> has a constant value of 00011100 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<39>> in unit <color_file> has a constant value of 11100111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<40>> in unit <color_file> has a constant value of 01101111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<41>> in unit <color_file> has a constant value of 11111011 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<42>> in unit <color_file> has a constant value of 00011110 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<43>> in unit <color_file> has a constant value of 01011000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<44>> in unit <color_file> has a constant value of 00001101 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<45>> in unit <color_file> has a constant value of 11110100 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<46>> in unit <color_file> has a constant value of 00011100 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<47>> in unit <color_file> has a constant value of 11100111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<48>> in unit <color_file> has a constant value of 01101111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<49>> in unit <color_file> has a constant value of 11111011 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<50>> in unit <color_file> has a constant value of 00111011 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<51>> in unit <color_file> has a constant value of 11110100 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<52>> in unit <color_file> has a constant value of 00010110 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<53>> in unit <color_file> has a constant value of 11101011 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<54>> in unit <color_file> has a constant value of 00011100 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<55>> in unit <color_file> has a constant value of 11100111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<56>> in unit <color_file> has a constant value of 01111111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<57>> in unit <color_file> has a constant value of 11111111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<58>> in unit <color_file> has a constant value of 01110010 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<59>> in unit <color_file> has a constant value of 01101000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<60>> in unit <color_file> has a constant value of 01000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<61>> in unit <color_file> has a constant value of 10100101 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<62>> in unit <color_file> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bg_pallete_arr<63>> in unit <color_file> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<0>> in unit <color_file> has a constant value of 01101111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<1>> in unit <color_file> has a constant value of 11111011 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<2>> in unit <color_file> has a constant value of 00101010 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<3>> in unit <color_file> has a constant value of 01111111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<4>> in unit <color_file> has a constant value of 00000100 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<5>> in unit <color_file> has a constant value of 11111111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<6>> in unit <color_file> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<7>> in unit <color_file> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<8>> in unit <color_file> has a constant value of 01101111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<9>> in unit <color_file> has a constant value of 11111011 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<10>> in unit <color_file> has a constant value of 00101010 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<11>> in unit <color_file> has a constant value of 01111111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<12>> in unit <color_file> has a constant value of 01111101 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<13>> in unit <color_file> has a constant value of 00101010 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<14>> in unit <color_file> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<15>> in unit <color_file> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<16>> in unit <color_file> has a constant value of 01101111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<17>> in unit <color_file> has a constant value of 11111011 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<18>> in unit <color_file> has a constant value of 00101010 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<19>> in unit <color_file> has a constant value of 01111111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<20>> in unit <color_file> has a constant value of 00001110 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<21>> in unit <color_file> has a constant value of 11100111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<22>> in unit <color_file> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<23>> in unit <color_file> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<24>> in unit <color_file> has a constant value of 01101111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<25>> in unit <color_file> has a constant value of 11111011 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<26>> in unit <color_file> has a constant value of 00101010 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<27>> in unit <color_file> has a constant value of 01111111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<28>> in unit <color_file> has a constant value of 00001101 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<29>> in unit <color_file> has a constant value of 01001111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<30>> in unit <color_file> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<31>> in unit <color_file> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<32>> in unit <color_file> has a constant value of 01101111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<33>> in unit <color_file> has a constant value of 11111011 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<34>> in unit <color_file> has a constant value of 00101010 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<35>> in unit <color_file> has a constant value of 01111111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<36>> in unit <color_file> has a constant value of 00011001 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<37>> in unit <color_file> has a constant value of 01011110 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<38>> in unit <color_file> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<39>> in unit <color_file> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<40>> in unit <color_file> has a constant value of 01111111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<41>> in unit <color_file> has a constant value of 11111111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<42>> in unit <color_file> has a constant value of 01111111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<43>> in unit <color_file> has a constant value of 11111111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<44>> in unit <color_file> has a constant value of 00110101 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<45>> in unit <color_file> has a constant value of 10101101 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<46>> in unit <color_file> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<47>> in unit <color_file> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<48>> in unit <color_file> has a constant value of 00101011 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<49>> in unit <color_file> has a constant value of 11110110 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<50>> in unit <color_file> has a constant value of 00000111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<51>> in unit <color_file> has a constant value of 00101100 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<52>> in unit <color_file> has a constant value of 00000001 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<53>> in unit <color_file> has a constant value of 11000101 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<54>> in unit <color_file> has a constant value of 00011100 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<55>> in unit <color_file> has a constant value of 11100111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<56>> in unit <color_file> has a constant value of 01101111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<57>> in unit <color_file> has a constant value of 11111011 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<58>> in unit <color_file> has a constant value of 00011110 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<59>> in unit <color_file> has a constant value of 01011000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<60>> in unit <color_file> has a constant value of 00001101 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<61>> in unit <color_file> has a constant value of 11110100 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<62>> in unit <color_file> has a constant value of 00011100 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <spr_pallete_arr<63>> in unit <color_file> has a constant value of 11100111 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bcps_reg<7>> in unit <color_file> has a constant value of X during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bcps_reg<6>> in unit <color_file> has a constant value of X during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bcps_reg<5>> in unit <color_file> has a constant value of X during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bcps_reg<4>> in unit <color_file> has a constant value of X during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bcps_reg<3>> in unit <color_file> has a constant value of X during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bcps_reg<2>> in unit <color_file> has a constant value of X during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bcps_reg<1>> in unit <color_file> has a constant value of X during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bcps_reg<0>> in unit <color_file> has a constant value of X during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <ocps_reg<7>> in unit <color_file> has a constant value of X during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <ocps_reg<6>> in unit <color_file> has a constant value of X during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <ocps_reg<5>> in unit <color_file> has a constant value of X during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <ocps_reg<4>> in unit <color_file> has a constant value of X during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <ocps_reg<3>> in unit <color_file> has a constant value of X during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <ocps_reg<2>> in unit <color_file> has a constant value of X during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <ocps_reg<1>> in unit <color_file> has a constant value of X during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <ocps_reg<0>> in unit <color_file> has a constant value of X during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <divider>.
+    Related source file is "../divider.v".
+    Found 32-bit register for signal <count>.
+    Found 32-bit adder for signal <next_count$addsub0000> created at line 45.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <divider> synthesized.
+
+
+Synthesizing Unit <scanline_ram>.
+    Related source file is "../scanline_ram.v".
+    Found 8-bit 20-to-1 multiplexer for signal <rd_dataA>.
+    Found 8-bit 20-to-1 multiplexer for signal <rd_dataB>.
+    Found 160-bit register for signal <RAM>.
+    Summary:
+	inferred 160 D-type flip-flop(s).
+	inferred  16 Multiplexer(s).
+Unit <scanline_ram> synthesized.
+
+
+Synthesizing Unit <color_file>.
+    Related source file is "../color_file/color_file.v".
+    Found 64x8-bit ROM for signal <$varindex0000> created at line 57.
+    Found 64x8-bit ROM for signal <$varindex0001> created at line 58.
+    Found 64x8-bit ROM for signal <$varindex0002> created at line 59.
+    Found 64x8-bit ROM for signal <$varindex0003> created at line 60.
+    Found 64x8-bit ROM for signal <bgpal_return_data>.
+    Found 64x8-bit ROM for signal <sprpal_return_data>.
+    Found 6-bit adder for signal <$add0000> created at line 275.
+    Found 6-bit adder for signal <$add0001> created at line 285.
+    Summary:
+	inferred   6 ROM(s).
+	inferred   2 Adder/Subtractor(s).
+Unit <color_file> synthesized.
+
+
+Synthesizing Unit <sync_gen>.
+    Related source file is "../sync_gen.v".
+    Found 12-bit up counter for signal <x>.
+    Found 12-bit up counter for signal <y>.
+    Found 12-bit comparator greatequal for signal <border$cmp_ge0000> created at line 84.
+    Found 12-bit comparator greatequal for signal <border$cmp_ge0001> created at line 84.
+    Found 12-bit comparator greatequal for signal <hs$cmp_ge0000> created at line 82.
+    Found 12-bit comparator less for signal <hs$cmp_lt0000> created at line 82.
+    Found 12-bit comparator greatequal for signal <vs$cmp_ge0000> created at line 83.
+    Found 12-bit comparator less for signal <vs$cmp_lt0000> created at line 83.
+    Found 12-bit comparator greatequal for signal <y$cmp_ge0000> created at line 69.
+    Found 12-bit comparator greatequal for signal <y$cmp_ge0001> created at line 70.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   8 Comparator(s).
+Unit <sync_gen> synthesized.
+
+
+Synthesizing Unit <iic_init>.
+    Related source file is "../iic_init.v".
+    Found finite state machine <FSM_0> for signal <c_state>.
+    -----------------------------------------------------------------------
+    | States             | 7                                              |
+    | Transitions        | 15                                             |
+    | Inputs             | 3                                              |
+    | Outputs            | 7                                              |
+    | Clock              | Clk                       (rising_edge)        |
+    | Reset              | Reset_n                   (negative)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 001                                            |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit register for signal <Done>.
+    Found 32-bit up counter for signal <bit_count>.
+    Found 12-bit up counter for signal <cycle_count>.
+    Found 1-bit register for signal <SCL_out>.
+    Found 28-bit register for signal <SDA_BUFFER>.
+    Found 1-bit register for signal <SDA_out>.
+    Found 3-bit up counter for signal <write_count>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   3 Counter(s).
+	inferred  31 D-type flip-flop(s).
+Unit <iic_init> synthesized.
+
+
+Synthesizing Unit <video_module>.
+    Related source file is "../video_module.v".
+WARNING:Xst:646 - Signal <tile_y_pos<7:3>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <sprite_palette> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <sprite_location> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <sprite_attributes<6>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <sprite_attributes<3>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pixel_index> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <background_attributes<7:6>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <background_attributes<4>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <VBK> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <OCPS> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <OCPD> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <HDMA5> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <HDMA4> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <HDMA3> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <HDMA2> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <HDMA1> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <BCPS> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <BCPD> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Register <spr_pal_idx> equivalent to <bg_pal_idx> has been removed
+    Register <spr_pal_sel> equivalent to <bg_pal_sel> has been removed
+    Register <idx_scanline1_addrA> equivalent to <bg_scanline_addrA> has been removed
+    Register <idx_scanline2_addrA> equivalent to <bg_scanline_addrA> has been removed
+    Register <idx_scanline3_addrA> equivalent to <bg_scanline_addrA> has been removed
+    Register <scanline1_addrA> equivalent to <bg_scanline_addrA> has been removed
+    Register <scanline2_addrA> equivalent to <bg_scanline_addrA> has been removed
+    Register <idx_scanline1_addrB> equivalent to <bg_scanline_addrB> has been removed
+    Register <idx_scanline2_addrB> equivalent to <bg_scanline_addrB> has been removed
+    Register <idx_scanline3_addrB> equivalent to <bg_scanline_addrB> has been removed
+    Register <scanline1_addrB> equivalent to <bg_scanline_addrB> has been removed
+    Register <scanline2_addrB> equivalent to <bg_scanline_addrB> has been removed
+    Found 1-bit register for signal <int_vblank_req>.
+    Found 6-bit register for signal <state>.
+    Found 8-bit register for signal <sprite_data1>.
+    Found 8-bit register for signal <sprite_data2>.
+    Found 2-bit register for signal <mode>.
+    Found 8-bit register for signal <line_count>.
+    Found 8-bit register for signal <sprite_x_pos>.
+    Found 9-bit register for signal <pixel_count>.
+    Found 8-bit register for signal <oam_addrA>.
+    Found 2-bit register for signal <bg_pixel>.
+    Found 8-bit register for signal <pixel_data_count>.
+    Found 8-bit register for signal <sprite_y_pos>.
+    Found 7-bit register for signal <sprite_num>.
+    Found 1-bit register for signal <pixel_we>.
+    Found 16-bit register for signal <pixel_data>.
+    Found 2-bit register for signal <sprite_pixel>.
+    Found 10-bit adder for signal <$add0000> created at line 895.
+    Found 10-bit subtractor for signal <add0000$sub0000> created at line 895.
+    Found 8-bit register for signal <background_attributes>.
+    Found 3-bit register for signal <bg_idx>.
+    Found 2-bit register for signal <bg_pal_idx>.
+    Found 3-bit register for signal <bg_pal_sel>.
+    Found 4-bit comparator less for signal <bg_pixel$cmp_lt0000> created at line 1011.
+    Found 5-bit register for signal <bg_scanline_addrA>.
+    Found 5-bit register for signal <bg_scanline_addrB>.
+    Found 8-bit register for signal <bg_scanline_inA>.
+    Found 8-bit shifter logical right for signal <bg_scanline_inA$shift0001> created at line 1079.
+    Found 8-bit register for signal <bg_scanline_inB>.
+    Found 8-bit shifter logical left for signal <bg_scanline_inB$shift0001> created at line 1095.
+    Found 9-bit comparator greater for signal <hsync$cmp_gt0000> created at line 1269.
+    Found 8-bit register for signal <idx_scanline1_inA>.
+    Found 8-bit shifter logical right for signal <idx_scanline1_inA$shift0002> created at line 828.
+    Found 8-bit shifter logical right for signal <idx_scanline1_inA$shift0003> created at line 1082.
+    Found 8-bit register for signal <idx_scanline1_inB>.
+    Found 8-bit shifter logical left for signal <idx_scanline1_inB$shift0001> created at line 1098.
+    Found 8-bit register for signal <idx_scanline2_inA>.
+    Found 8-bit shifter logical right for signal <idx_scanline2_inA$shift0001> created at line 1084.
+    Found 8-bit register for signal <idx_scanline2_inB>.
+    Found 8-bit shifter logical left for signal <idx_scanline2_inB$shift0001> created at line 1100.
+    Found 8-bit register for signal <idx_scanline3_inA>.
+    Found 8-bit shifter logical right for signal <idx_scanline3_inA$shift0001> created at line 1086.
+    Found 8-bit register for signal <idx_scanline3_inB>.
+    Found 8-bit shifter logical left for signal <idx_scanline3_inB$shift0001> created at line 1102.
+    Found 9-bit comparator less for signal <int_vblank_req$cmp_lt0000> created at line 602.
+    Found 1-bit register for signal <is_spr_pix>.
+    Found 9-bit comparator greatequal for signal <mode$cmp_ge0000> created at line 602.
+    Found 9-bit comparator less for signal <mode$cmp_lt0000> created at line 612.
+    Found 9-bit comparator less for signal <mode$cmp_lt0001> created at line 619.
+    Found 8-bit adder for signal <next_line_count$addsub0000> created at line 1264.
+    Found 9-bit adder for signal <next_pixel_count$addsub0000> created at line 1259.
+    Found 3-bit comparator less for signal <oam_addrA$cmp_lt0000> created at line 1247.
+    Found 8-bit register for signal <oam_addrB>.
+    Found 8-bit adder for signal <pixel_data_count$addsub0000> created at line 1218.
+    Found 8-bit register for signal <reg_out>.
+    Found 8-bit register for signal <scanline1_inA>.
+    Found 32-bit shifter logical right for signal <scanline1_inA$shift0000> created at line 807.
+    Found 8-bit shifter logical left for signal <scanline1_inA$shift0003> created at line 1074.
+    Found 8-bit shifter logical right for signal <scanline1_inA$shift0004> created at line 1074.
+    Found 8-bit register for signal <scanline1_inB>.
+    Found 32-bit shifter logical left for signal <scanline1_inB$shift0000> created at line 816.
+    Found 8-bit shifter logical left for signal <scanline1_inB$shift0002> created at line 1090.
+    Found 8-bit register for signal <scanline2_inA>.
+    Found 32-bit shifter logical right for signal <scanline2_inA$shift0000> created at line 811.
+    Found 8-bit shifter logical right for signal <scanline2_inA$shift0002> created at line 1076.
+    Found 8-bit register for signal <scanline2_inB>.
+    Found 32-bit shifter logical left for signal <scanline2_inB$shift0000> created at line 820.
+    Found 8-bit shifter logical left for signal <scanline2_inB$shift0002> created at line 1092.
+    Found 1-bit register for signal <scanlineA_we>.
+    Found 5-bit comparator less for signal <scanlineA_we$cmp_lt0000> created at line 1107.
+    Found 1-bit register for signal <scanlineB_we>.
+    Found 5-bit comparator greater for signal <scanlineB_we$cmp_gt0000> created at line 1108.
+    Found 5-bit comparator less for signal <scanlineB_we$cmp_lt0000> created at line 861.
+    Found 8-bit register for signal <sprite_attributes>.
+    Found 8-bit register for signal <sprite_bg_data1>.
+    Found 8-bit shifter logical left for signal <sprite_bg_data1$shift0000> created at line 1036.
+    Found 8-bit shifter logical left for signal <sprite_data1$shift0000> created at line 1031.
+    Found 8-bit shifter logical left for signal <sprite_data1$shift0001> created at line 1031.
+    Found 8-bit shifter logical left for signal <sprite_data1$shift0002> created at line 1048.
+    Found 8-bit shifter logical left for signal <sprite_data2$shift0000> created at line 1033.
+    Found 8-bit shifter logical left for signal <sprite_data2$shift0001> created at line 1050.
+    Found 8-bit register for signal <sprite_idx_data1>.
+    Found 8-bit shifter logical left for signal <sprite_idx_data1$shift0000> created at line 1039.
+    Found 8-bit shifter logical left for signal <sprite_idx_data1$shift0001> created at line 1056.
+    Found 8-bit register for signal <sprite_idx_data2>.
+    Found 8-bit shifter logical left for signal <sprite_idx_data2$shift0000> created at line 1041.
+    Found 8-bit shifter logical left for signal <sprite_idx_data2$shift0001> created at line 1058.
+    Found 8-bit register for signal <sprite_idx_data3>.
+    Found 8-bit shifter logical left for signal <sprite_idx_data3$shift0000> created at line 1043.
+    Found 8-bit shifter logical left for signal <sprite_idx_data3$shift0001> created at line 1060.
+    Found 7-bit adder for signal <sprite_num$addsub0000> created at line 1118.
+    Found 3-bit register for signal <sprite_pixel_num>.
+    Found 3-bit adder for signal <sprite_pixel_num$addsub0000> created at line 1064.
+    Found 8-bit subtractor for signal <sprite_x_pos$sub0000> created at line 894.
+    Found 8-bit subtractor for signal <sprite_y_pos$sub0000> created at line 893.
+    Found 10-bit comparator greatequal for signal <state$cmp_ge0000> created at line 895.
+    Found 7-bit comparator greater for signal <state$cmp_gt0000> created at line 1236.
+    Found 6-bit comparator less for signal <state$cmp_lt0000> created at line 1236.
+    Found 11-bit comparator less for signal <state$cmp_lt0001> created at line 895.
+    Found 3-bit comparator less for signal <state$cmp_lt0002> created at line 1063.
+    Found 8-bit comparator less for signal <state$cmp_lt0003> created at line 1217.
+    Found 4-bit register for signal <tile_byte_offset1>.
+    Found 4-bit register for signal <tile_byte_offset2>.
+    Found 4-bit adder for signal <tile_byte_offset2$addsub0000>.
+    Found 5-bit register for signal <tile_byte_pos1>.
+    Found 5-bit register for signal <tile_byte_pos2>.
+    Found 5-bit adder for signal <tile_byte_pos2$addsub0000> created at line 955.
+    Found 8-bit adder carry out for signal <tile_byte_pos2$addsub0001> created at line 778.
+    Found 5-bit register for signal <tile_col_num>.
+    Found 5-bit adder for signal <tile_col_num$addsub0000> created at line 870.
+    Found 8-bit register for signal <tile_data1>.
+    Found 8-bit register for signal <tile_data2>.
+    Found 8-bit register for signal <tile_x_pos>.
+    Found 8-bit register for signal <tile_y_pos>.
+    Found 13-bit register for signal <vram2_addrA>.
+    Found 13-bit register for signal <vram2_addrB>.
+    Found 13-bit register for signal <vram_addrA>.
+    Found 10-bit adder for signal <vram_addrA$add0000> created at line 662.
+    Found 12-bit adder for signal <vram_addrA$add0005> created at line 730.
+    Found 13-bit adder for signal <vram_addrA$add0006> created at line 730.
+    Found 13-bit adder for signal <vram_addrA$add0007> created at line 912.
+    Found 13-bit adder for signal <vram_addrA$add0008> created at line 679.
+    Found 13-bit adder for signal <vram_addrA$addsub0000> created at line 679.
+    Found 13-bit adder carry out for signal <vram_addrA$addsub0001> created at line 730.
+    Found 3-bit comparator less for signal <vram_addrA$cmp_lt0000> created at line 1241.
+    Found 10-bit subtractor for signal <vram_addrA$sub0001> created at line 912.
+    Found 10-bit subtractor for signal <vram_addrA$sub0002> created at line 912.
+    Found 11-bit adder for signal <vram_addrA$sub0003>.
+    Found 13-bit register for signal <vram_addrB>.
+    Found 13-bit adder for signal <vram_addrB$addsub0000> created at line 917.
+    Found 12-bit adder carry out for signal <vram_addrB$addsub0001> created at line 737.
+    Found 13-bit adder carry out for signal <vram_addrB$addsub0002> created at line 737.
+    Found 9-bit comparator greater for signal <vsync$cmp_gt0000> created at line 1270.
+    Summary:
+	inferred 393 D-type flip-flop(s).
+	inferred  28 Adder/Subtractor(s).
+	inferred  18 Comparator(s).
+	inferred  18 Multiplexer(s).
+	inferred  31 Combinational logic shifter(s).
+Unit <video_module> synthesized.
+
+
+Synthesizing Unit <video_converter>.
+    Related source file is "../video_converter.v".
+WARNING:Xst:647 - Input <gb_hsync> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1780 - Signal <write_enable> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <my_color<15>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <last_write_addr> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <gb_last_hsync> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:643 - "../video_converter.v" line 182: The result of a 8x8-bit multiplication is partially used. Only the 15 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "../video_converter.v" line 188: The result of a 32x9-bit multiplication is partially used. Only the 15 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+    Found 15-bit adder for signal <buffer_pos>.
+    Found 32x9-bit multiplier for signal <buffer_pos$mult0001> created at line 188.
+    Found 14-bit subtractor for signal <buffer_pos$sub0000> created at line 188.
+    Found 14-bit subtractor for signal <buffer_pos$sub0001> created at line 188.
+    Found 1-bit register for signal <front_buffer>.
+    Found 1-bit register for signal <gb_last_vsync>.
+    Found 3-bit register for signal <hdelay>.
+    Found 12-bit comparator greatequal for signal <my_color$cmp_ge0000> created at line 231.
+    Found 12-bit comparator greatequal for signal <my_color$cmp_ge0001> created at line 231.
+    Found 12-bit comparator less for signal <my_color$cmp_lt0000> created at line 231.
+    Found 12-bit comparator less for signal <my_color$cmp_lt0001> created at line 231.
+    Found 3-bit register for signal <vdelay>.
+    Found 15-bit adder for signal <write_addr>.
+    Found 8x8-bit multiplier for signal <write_addr$mult0001> created at line 182.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+	inferred   4 Adder/Subtractor(s).
+	inferred   2 Multiplier(s).
+	inferred   4 Comparator(s).
+Unit <video_converter> synthesized.
+
+
+Synthesizing Unit <dvi_module>.
+    Related source file is "../dvi_module.v".
+Unit <dvi_module> synthesized.
+
+
+Synthesizing Unit <clk31p5_dcm>.
+    Related source file is "../clk31p5_dcm.v".
+Unit <clk31p5_dcm> synthesized.
+
+
+Synthesizing Unit <x2_dcm>.
+    Related source file is "../x2_dcm.v".
+Unit <x2_dcm> synthesized.
+
+
+Synthesizing Unit <ddr2_idelay_ctrl>.
+    Related source file is "../ddr2_idelay_ctrl.v".
+Unit <ddr2_idelay_ctrl> synthesized.
+
+
+Synthesizing Unit <ddr2_idelay_ctrl_mod>.
+    Related source file is "../ddr2_idelay_ctrl_mod.v".
+WARNING:Xst:646 - Signal <idelay_ctrl_rdy> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <clk200_ready> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 25-bit register for signal <rst200_sync_r>.
+    Summary:
+	inferred  25 D-type flip-flop(s).
+Unit <ddr2_idelay_ctrl_mod> synthesized.
+
+
+Synthesizing Unit <ugly_setup>.
+    Related source file is "../ugly_setup.v".
+    Found 16-bit register for signal <gpuclk_rst_b_seq>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <ugly_setup> synthesized.
+
+
+Synthesizing Unit <gpu_top>.
+    Related source file is "../gpu_top.v".
+WARNING:Xst:647 - Input <switches78> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1305 - Output <led_out> is never assigned. Tied to value 0.
+WARNING:Xst:1780 - Signal <sprite_y_pos> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <sprite_x_pos> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <sprite_pixel> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <sprite_num> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <sprite_data2> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <sprite_data1> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <oam_addrA> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <gb_pixel_cnt> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <dvi_sync_b> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <bg_pixel> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <gpu_top> synthesized.
+
+
+Synthesizing Unit <gpu_test_top>.
+    Related source file is "../gpu_test_top.v".
+WARNING:Xst:646 - Signal <mode_video> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <int_req> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <do_video> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <gpu_test_top> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 4
+ 64x8-bit ROM                                          : 4
+# Multipliers                                          : 2
+ 32x9-bit multiplier                                   : 1
+ 8x8-bit multiplier                                    : 1
+# Adders/Subtractors                                   : 33
+ 10-bit adder                                          : 2
+ 10-bit subtractor                                     : 3
+ 11-bit adder                                          : 1
+ 12-bit adder                                          : 1
+ 12-bit adder carry out                                : 1
+ 13-bit adder                                          : 5
+ 13-bit adder carry out                                : 2
+ 14-bit subtractor                                     : 2
+ 15-bit adder                                          : 2
+ 3-bit adder                                           : 1
+ 32-bit adder                                          : 1
+ 4-bit adder                                           : 2
+ 4-bit subtractor                                      : 1
+ 5-bit adder                                           : 2
+ 7-bit adder                                           : 1
+ 8-bit adder                                           : 2
+ 8-bit adder carry out                                 : 1
+ 8-bit subtractor                                      : 2
+ 9-bit adder                                           : 1
+# Counters                                             : 5
+ 12-bit up counter                                     : 3
+ 3-bit up counter                                      : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 203
+ 1-bit register                                        : 26
+ 13-bit register                                       : 4
+ 16-bit register                                       : 2
+ 2-bit register                                        : 4
+ 25-bit register                                       : 1
+ 28-bit register                                       : 1
+ 3-bit register                                        : 5
+ 32-bit register                                       : 1
+ 4-bit register                                        : 2
+ 5-bit register                                        : 5
+ 6-bit register                                        : 1
+ 7-bit register                                        : 1
+ 8-bit register                                        : 149
+ 9-bit register                                        : 1
+# Comparators                                          : 30
+ 10-bit comparator greatequal                          : 1
+ 11-bit comparator less                                : 1
+ 12-bit comparator greatequal                          : 8
+ 12-bit comparator less                                : 4
+ 3-bit comparator less                                 : 3
+ 4-bit comparator less                                 : 1
+ 5-bit comparator greater                              : 1
+ 5-bit comparator less                                 : 2
+ 6-bit comparator less                                 : 1
+ 7-bit comparator greater                              : 1
+ 8-bit comparator less                                 : 1
+ 9-bit comparator greatequal                           : 1
+ 9-bit comparator greater                              : 2
+ 9-bit comparator less                                 : 3
+# Multiplexers                                         : 30
+ 1-bit 8-to-1 multiplexer                              : 18
+ 8-bit 20-to-1 multiplexer                             : 12
+# Logic shifters                                       : 31
+ 32-bit shifter logical left                           : 3
+ 32-bit shifter logical right                          : 2
+ 8-bit shifter logical left                            : 19
+ 8-bit shifter logical right                           : 7
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <gpu/dvi/init/c_state/FSM> on signal <c_state[1:3]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 000   | 001
+ 001   | 000
+ 010   | 011
+ 011   | 010
+ 100   | 110
+ 101   | 111
+ 110   | 101
+-------------------
+Reading core <ipcore_dir/OAM.ngc>.
+Reading core <ipcore_dir/VRAM.ngc>.
+Reading core <ipcore_dir/VRAM2.ngc>.
+Reading core <ipcore_dir/framebuffer1.ngc>.
+Loading core <OAM> for timing and area information for instance <oam>.
+Loading core <VRAM> for timing and area information for instance <vram>.
+Loading core <VRAM2> for timing and area information for instance <vram2>.
+Loading core <framebuffer1> for timing and area information for instance <buffer1>.
+Loading core <framebuffer1> for timing and area information for instance <buffer2>.
+INFO:Xst:2261 - The FF/Latch <tile_x_pos_0> in Unit <video> is equivalent to the following 2 FFs/Latches, which will be removed : <tile_x_pos_1> <tile_x_pos_2> 
+WARNING:Xst:1710 - FF/Latch <tile_byte_offset1_3> (without init value) has a constant value of 0 in block <video>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <oam_addrA_0> (without init value) has a constant value of 0 in block <video>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <tile_x_pos_0> (without init value) has a constant value of 0 in block <video>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <SDA_BUFFER_0> (without init value) has a constant value of 0 in block <init>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <background_attributes_4> of sequential type is unconnected in block <video>.
+WARNING:Xst:2677 - Node <background_attributes_6> of sequential type is unconnected in block <video>.
+WARNING:Xst:2677 - Node <background_attributes_7> of sequential type is unconnected in block <video>.
+WARNING:Xst:2677 - Node <sprite_attributes_3> of sequential type is unconnected in block <video>.
+WARNING:Xst:2677 - Node <sprite_attributes_4> of sequential type is unconnected in block <video>.
+WARNING:Xst:2677 - Node <sprite_attributes_6> of sequential type is unconnected in block <video>.
+WARNING:Xst:2677 - Node <tile_y_pos_3> of sequential type is unconnected in block <video>.
+WARNING:Xst:2677 - Node <tile_y_pos_4> of sequential type is unconnected in block <video>.
+WARNING:Xst:2677 - Node <tile_y_pos_5> of sequential type is unconnected in block <video>.
+WARNING:Xst:2677 - Node <tile_y_pos_6> of sequential type is unconnected in block <video>.
+WARNING:Xst:2677 - Node <tile_y_pos_7> of sequential type is unconnected in block <video>.
+WARNING:Xst:2404 -  FFs/Latches <reg_out<7:0>> (without init value) have a constant value of 0 in block <video_module>.
+
+Synthesizing (advanced) Unit <gpu_top>.
+	Multiplier <converter/Mmult_write_addr_mult0001> in block <gpu_top> and adder/subtractor <converter/Madd_write_addr> in block <gpu_top> are combined into a MAC<converter/Maddsub_write_addr_mult0001>.
+	The following registers are also absorbed by the MAC: <video/line_count> in block <gpu_top>, <video/pixel_data_count> in block <gpu_top>.
+Unit <gpu_top> synthesized (advanced).
+WARNING:Xst:2677 - Node <video/sprite_attributes_3> of sequential type is unconnected in block <gpu_top>.
+WARNING:Xst:2677 - Node <video/sprite_attributes_4> of sequential type is unconnected in block <gpu_top>.
+WARNING:Xst:2677 - Node <video/sprite_attributes_6> of sequential type is unconnected in block <gpu_top>.
+WARNING:Xst:2677 - Node <video/background_attributes_4> of sequential type is unconnected in block <gpu_top>.
+WARNING:Xst:2677 - Node <video/background_attributes_6> of sequential type is unconnected in block <gpu_top>.
+WARNING:Xst:2677 - Node <video/background_attributes_7> of sequential type is unconnected in block <gpu_top>.
+WARNING:Xst:2677 - Node <video/tile_y_pos_3> of sequential type is unconnected in block <gpu_top>.
+WARNING:Xst:2677 - Node <video/tile_y_pos_4> of sequential type is unconnected in block <gpu_top>.
+WARNING:Xst:2677 - Node <video/tile_y_pos_5> of sequential type is unconnected in block <gpu_top>.
+WARNING:Xst:2677 - Node <video/tile_y_pos_6> of sequential type is unconnected in block <gpu_top>.
+WARNING:Xst:2677 - Node <video/tile_y_pos_7> of sequential type is unconnected in block <gpu_top>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 4
+ 64x8-bit ROM                                          : 4
+# MACs                                                 : 1
+ 8x8-to-15-bit MAC                                     : 1
+# Multipliers                                          : 1
+ 32x9-bit multiplier                                   : 1
+# Adders/Subtractors                                   : 28
+ 10-bit adder                                          : 1
+ 10-bit subtractor                                     : 3
+ 11-bit adder                                          : 1
+ 12-bit adder                                          : 1
+ 12-bit adder carry out                                : 1
+ 13-bit adder                                          : 4
+ 14-bit subtractor                                     : 2
+ 15-bit adder                                          : 1
+ 3-bit adder                                           : 2
+ 3-bit subtractor                                      : 1
+ 32-bit adder                                          : 1
+ 4-bit adder                                           : 1
+ 5-bit adder                                           : 2
+ 7-bit adder                                           : 1
+ 8-bit adder                                           : 2
+ 8-bit adder carry out                                 : 1
+ 8-bit subtractor                                      : 2
+ 9-bit adder                                           : 1
+# Counters                                             : 5
+ 12-bit up counter                                     : 3
+ 3-bit up counter                                      : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 1449
+ Flip-Flops                                            : 1449
+# Comparators                                          : 29
+ 10-bit comparator greatequal                          : 1
+ 11-bit comparator less                                : 1
+ 12-bit comparator greatequal                          : 8
+ 12-bit comparator less                                : 4
+ 3-bit comparator less                                 : 3
+ 4-bit comparator less                                 : 1
+ 5-bit comparator greater                              : 1
+ 5-bit comparator less                                 : 2
+ 6-bit comparator less                                 : 1
+ 7-bit comparator greater                              : 1
+ 8-bit comparator less                                 : 1
+ 9-bit comparator greatequal                           : 1
+ 9-bit comparator greater                              : 1
+ 9-bit comparator less                                 : 3
+# Multiplexers                                         : 114
+ 1-bit 20-to-1 multiplexer                             : 96
+ 1-bit 8-to-1 multiplexer                              : 18
+# Logic shifters                                       : 31
+ 32-bit shifter logical left                           : 3
+ 32-bit shifter logical right                          : 2
+ 8-bit shifter logical left                            : 19
+ 8-bit shifter logical right                           : 7
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <SDA_BUFFER_0> (without init value) has a constant value of 0 in block <iic_init>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <video/oam_addrA_0> (without init value) has a constant value of 0 in block <gpu_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <video/tile_byte_offset1_3> (without init value) has a constant value of 0 in block <gpu_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <video/tile_x_pos_0> (without init value) has a constant value of 0 in block <gpu_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <video/tile_x_pos_1> (without init value) has a constant value of 0 in block <gpu_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <video/tile_x_pos_2> (without init value) has a constant value of 0 in block <gpu_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <video/pixel_data_15> (without init value) has a constant value of 0 in block <gpu_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <converter/Mmult_buffer_pos_mult00011> of sequential type is unconnected in block <gpu_top>.
+WARNING:Xst:1710 - FF/Latch <converter/Maddsub_write_addr_mult0001_0> (without init value) has a constant value of 0 in block <gpu_top>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:1901 - Instance x2/DCM_2X_INST in unit ddr2_idelay_ctrl_mod of type DCM_BASE has been replaced by DCM_ADV
+INFO:Xst:1901 - Instance clk31p5_dcm_inst/DCM_31p5_INST in unit ugly_setup of type DCM_BASE has been replaced by DCM_ADV
+INFO:Xst:1901 - Instance converter/clock_mux_b2 in unit gpu_top of type BUFGMUX has been replaced by BUFGCTRL
+INFO:Xst:1901 - Instance converter/clock_mux_b1 in unit gpu_top of type BUFGMUX has been replaced by BUFGCTRL
+INFO:Xst:2261 - The FF/Latch <video/line_count_2> in Unit <gpu_top> is equivalent to the following FF/Latch, which will be removed : <converter/Maddsub_write_addr_mult0001_6> 
+INFO:Xst:2261 - The FF/Latch <video/pixel_data_count_7> in Unit <gpu_top> is equivalent to the following FF/Latch, which will be removed : <converter/Maddsub_write_addr_mult00011_0> 
+INFO:Xst:2261 - The FF/Latch <video/line_count_1> in Unit <gpu_top> is equivalent to the following FF/Latch, which will be removed : <converter/Maddsub_write_addr_mult0001_7> 
+INFO:Xst:2261 - The FF/Latch <video/pixel_data_count_6> in Unit <gpu_top> is equivalent to the following FF/Latch, which will be removed : <converter/Maddsub_write_addr_mult00011_1> 
+INFO:Xst:2261 - The FF/Latch <video/pixel_data_count_5> in Unit <gpu_top> is equivalent to the following FF/Latch, which will be removed : <converter/Maddsub_write_addr_mult00011_2> 
+INFO:Xst:2261 - The FF/Latch <video/line_count_4> in Unit <gpu_top> is equivalent to the following FF/Latch, which will be removed : <converter/Maddsub_write_addr_mult0001_4> 
+INFO:Xst:2261 - The FF/Latch <video/pixel_data_count_4> in Unit <gpu_top> is equivalent to the following FF/Latch, which will be removed : <converter/Maddsub_write_addr_mult00011_3> 
+INFO:Xst:2261 - The FF/Latch <video/pixel_data_count_3> in Unit <gpu_top> is equivalent to the following FF/Latch, which will be removed : <converter/Maddsub_write_addr_mult00011_4> 
+INFO:Xst:2261 - The FF/Latch <video/line_count_6> in Unit <gpu_top> is equivalent to the following FF/Latch, which will be removed : <converter/Maddsub_write_addr_mult0001_2> 
+INFO:Xst:2261 - The FF/Latch <video/pixel_data_count_2> in Unit <gpu_top> is equivalent to the following FF/Latch, which will be removed : <converter/Maddsub_write_addr_mult00011_5> 
+INFO:Xst:2261 - The FF/Latch <video/pixel_data_count_1> in Unit <gpu_top> is equivalent to the following FF/Latch, which will be removed : <converter/Maddsub_write_addr_mult00011_6> 
+INFO:Xst:2261 - The FF/Latch <video/pixel_data_count_0> in Unit <gpu_top> is equivalent to the following FF/Latch, which will be removed : <converter/Maddsub_write_addr_mult00011_7> 
+INFO:Xst:2261 - The FF/Latch <video/line_count_0> in Unit <gpu_top> is equivalent to the following FF/Latch, which will be removed : <converter/Maddsub_write_addr_mult0001_8> 
+INFO:Xst:2261 - The FF/Latch <video/line_count_3> in Unit <gpu_top> is equivalent to the following FF/Latch, which will be removed : <converter/Maddsub_write_addr_mult0001_5> 
+INFO:Xst:2261 - The FF/Latch <video/line_count_5> in Unit <gpu_top> is equivalent to the following FF/Latch, which will be removed : <converter/Maddsub_write_addr_mult0001_3> 
+INFO:Xst:2261 - The FF/Latch <video/line_count_7> in Unit <gpu_top> is equivalent to the following FF/Latch, which will be removed : <converter/Maddsub_write_addr_mult0001_1> 
+
+Optimizing unit <gpu_test_top> ...
+
+Optimizing unit <divider> ...
+
+Optimizing unit <scanline_ram> ...
+
+Optimizing unit <sync_gen> ...
+
+Optimizing unit <iic_init> ...
+
+Optimizing unit <dvi_module> ...
+
+Optimizing unit <ddr2_idelay_ctrl_mod> ...
+
+Optimizing unit <ugly_setup> ...
+
+Optimizing unit <gpu_top> ...
+WARNING:Xst:1710 - FF/Latch <video/oam_addrB_0> (without init value) has a constant value of 1 in block <gpu_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <video/vram2_addrB_0> (without init value) has a constant value of 1 in block <gpu_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <gpu/dvi/init/Done> of sequential type is unconnected in block <gpu_test_top>.
+WARNING:Xst:2677 - Node <gpu/video/int_vblank_req> of sequential type is unconnected in block <gpu_test_top>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block gpu_test_top, actual ratio is 5.
+
+Final Macro Processing ...
+
+Processing Unit <gpu_test_top> :
+INFO:Xst:741 - HDL ADVISOR - A 16-bit shift register was found for signal <gpu/setup/gpuclk_rst_b_seq_15> and currently occupies 16 logic cells (8 slices). Removing the set/reset logic would take advantage of SRL32 (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+INFO:Xst:741 - HDL ADVISOR - A 25-bit shift register was found for signal <gpu/setup/idelay_ctrl_mod/rst200_sync_r_24> and currently occupies 25 logic cells (12 slices). Removing the set/reset logic would take advantage of SRL32 (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+Unit <gpu_test_top> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 1509
+ Flip-Flops                                            : 1509
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : gpu_test_top.ngr
+Top Level Output File Name         : gpu_test_top
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 24
+
+Cell Usage :
+# BELS                             : 3374
+#      GND                         : 6
+#      INV                         : 15
+#      LUT1                        : 95
+#      LUT2                        : 117
+#      LUT3                        : 128
+#      LUT4                        : 1101
+#      LUT5                        : 285
+#      LUT6                        : 1157
+#      MUXCY                       : 145
+#      MUXF7                       : 175
+#      VCC                         : 6
+#      XORCY                       : 144
+# FlipFlops/Latches                : 1529
+#      FDC                         : 16
+#      FDE                         : 1281
+#      FDP                         : 25
+#      FDR                         : 94
+#      FDRE                        : 78
+#      FDS                         : 8
+#      FDSE                        : 13
+#      ODDR                        : 14
+# RAMS                             : 35
+#      RAMB18                      : 1
+#      RAMB36_EXP                  : 34
+# Clock Buffers                    : 7
+#      BUFG                        : 5
+#      BUFGCTRL                    : 2
+# IO Buffers                       : 24
+#      IBUF                        : 1
+#      IBUFG                       : 3
+#      OBUF                        : 20
+# DCM_ADVs                         : 2
+#      DCM_ADV                     : 2
+# DSPs                             : 1
+#      DSP48E                      : 1
+# Others                           : 3
+#      IDELAYCTRL                  : 1
+#      IODELAY                     : 2
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 5vlx110tff1136-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:            1529  out of  69120     2%  
+ Number of Slice LUTs:                 2898  out of  69120     4%  
+    Number used as Logic:              2898  out of  69120     4%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   3015
+   Number with an unused Flip Flop:    1486  out of   3015    49%  
+   Number with an unused LUT:           117  out of   3015     3%  
+   Number of fully used LUT-FF pairs:  1412  out of   3015    46%  
+   Number of unique control sets:        47
+
+IO Utilization: 
+ Number of IOs:                          24
+ Number of bonded IOBs:                  24  out of    640     3%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:               35  out of    148    23%  
+    Number using Block RAM only:         35
+ Number of BUFG/BUFGCTRLs:                7  out of     32    21%  
+ Number of DCM_ADVs:                      2  out of     12    16%  
+ Number of DSP48Es:                       1  out of     64     1%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                                                                                                                           | Load  |
+-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+CLK_27MHZ_FPGA                     | gpu/setup/clk31p5_dcm_inst/DCM_31p5_INST:CLKFX+BUFGCTRL                                                                                         | 157   |
+USER_CLK                           | gpu/setup/idelay_ctrl_mod/x2/DCM_2X_INST:CLK2X                                                                                                  | 25    |
+CLK_33MHZ_FPGA                     | IBUFG+BUFGCTRL                                                                                                                                  | 1382  |
+gpu/converter/buffer1/N1           | NONE(gpu/converter/buffer1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/v5_noinit.ram/SP.SINGLE_PRIM36.SP)| 15    |
+gpu/converter/buffer2/N1           | NONE(gpu/converter/buffer2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/v5_noinit.ram/SP.SINGLE_PRIM36.SP)| 15    |
+-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+---------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+Control Signal                                                       | Buffer(FF name)                                                                                                                                 | Load  |
+---------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+gpu/converter/buffer1/N1(gpu/converter/buffer1/XST_GND:G)            | NONE(gpu/converter/buffer1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SP.SINGLE_PRIM36.SP)| 120   |
+gpu/converter/buffer2/N1(gpu/converter/buffer2/XST_GND:G)            | NONE(gpu/converter/buffer2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SP.SINGLE_PRIM36.SP)| 120   |
+GPIO_SW_C                                                            | IBUF                                                                                                                                            | 25    |
+gpu/setup/gpuclk_rst_cause_b_inv(gpu/setup/gpuclk_rst_cause_b_inv1:O)| NONE(gpu/setup/gpuclk_rst_b_seq_0)                                                                                                              | 16    |
+gpu/video/vram/N1(gpu/video/vram/XST_GND:G)                          | NONE(gpu/video/vram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_init.ram/TRUE_DP.SINGLE_PRIM36.TDP)   | 8     |
+gpu/video/vram2/N1(gpu/video/vram2/XST_GND:G)                        | NONE(gpu/video/vram2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_init.ram/TRUE_DP.SINGLE_PRIM36.TDP)  | 8     |
+---------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 11.769ns (Maximum Frequency: 84.967MHz)
+   Minimum input arrival time before clock: 2.604ns
+   Maximum output required time after clock: 5.574ns
+   Maximum combinational path delay: 2.788ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK_27MHZ_FPGA'
+  Clock period: 11.769ns (frequency: 84.967MHz)
+  Total number of paths / destination ports: 881072 / 743
+-------------------------------------------------------------------------
+Delay:               10.088ns (Levels of Logic = 22)
+  Source:            gpu/converter/dvi_sync/y_6 (FF)
+  Destination:       gpu/converter/buffer1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[14].ram.r/v5_noinit.ram/SP.SINGLE_PRIM36.SP (RAM)
+  Source Clock:      CLK_27MHZ_FPGA rising 1.2X
+  Destination Clock: CLK_27MHZ_FPGA rising 1.2X
+
+  Data Path: gpu/converter/dvi_sync/y_6 to gpu/converter/buffer1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[14].ram.r/v5_noinit.ram/SP.SINGLE_PRIM36.SP
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            11   0.471   1.028  gpu/converter/dvi_sync/y_6 (gpu/converter/dvi_sync/y_6)
+     LUT5:I0->O            4   0.094   0.496  gpu/converter/Msub_buffer_pos_sub0000_cy<9>111 (gpu/N653)
+     LUT6:I5->O            6   0.094   0.363  gpu/converter/Msub_buffer_pos_sub0000_xor<11>121 (gpu/N622)
+     DSP48E:B11->P0        1   3.646   0.480  gpu/converter/Mmult_buffer_pos_mult0001 (gpu/converter/buffer_pos_mult0001<0>)
+     LUT2:I1->O            1   0.094   0.000  gpu/converter/Madd_buffer_pos_lut<0> (gpu/converter/Madd_buffer_pos_lut<0>)
+     MUXCY:S->O            1   0.372   0.000  gpu/converter/Madd_buffer_pos_cy<0> (gpu/converter/Madd_buffer_pos_cy<0>)
+     MUXCY:CI->O           1   0.026   0.000  gpu/converter/Madd_buffer_pos_cy<1> (gpu/converter/Madd_buffer_pos_cy<1>)
+     MUXCY:CI->O           1   0.026   0.000  gpu/converter/Madd_buffer_pos_cy<2> (gpu/converter/Madd_buffer_pos_cy<2>)
+     MUXCY:CI->O           1   0.026   0.000  gpu/converter/Madd_buffer_pos_cy<3> (gpu/converter/Madd_buffer_pos_cy<3>)
+     MUXCY:CI->O           1   0.026   0.000  gpu/converter/Madd_buffer_pos_cy<4> (gpu/converter/Madd_buffer_pos_cy<4>)
+     MUXCY:CI->O           1   0.026   0.000  gpu/converter/Madd_buffer_pos_cy<5> (gpu/converter/Madd_buffer_pos_cy<5>)
+     MUXCY:CI->O           1   0.026   0.000  gpu/converter/Madd_buffer_pos_cy<6> (gpu/converter/Madd_buffer_pos_cy<6>)
+     MUXCY:CI->O           1   0.026   0.000  gpu/converter/Madd_buffer_pos_cy<7> (gpu/converter/Madd_buffer_pos_cy<7>)
+     MUXCY:CI->O           1   0.026   0.000  gpu/converter/Madd_buffer_pos_cy<8> (gpu/converter/Madd_buffer_pos_cy<8>)
+     MUXCY:CI->O           1   0.026   0.000  gpu/converter/Madd_buffer_pos_cy<9> (gpu/converter/Madd_buffer_pos_cy<9>)
+     MUXCY:CI->O           1   0.026   0.000  gpu/converter/Madd_buffer_pos_cy<10> (gpu/converter/Madd_buffer_pos_cy<10>)
+     MUXCY:CI->O           1   0.026   0.000  gpu/converter/Madd_buffer_pos_cy<11> (gpu/converter/Madd_buffer_pos_cy<11>)
+     MUXCY:CI->O           1   0.026   0.000  gpu/converter/Madd_buffer_pos_cy<12> (gpu/converter/Madd_buffer_pos_cy<12>)
+     MUXCY:CI->O           0   0.026   0.000  gpu/converter/Madd_buffer_pos_cy<13> (gpu/converter/Madd_buffer_pos_cy<13>)
+     XORCY:CI->O           2   0.357   0.485  gpu/converter/Madd_buffer_pos_xor<14> (gpu/converter/buffer_pos<14>)
+     LUT3:I2->O           23   0.094   0.827  gpu/converter/b1_addr<14>1 (gpu/converter/b1_addr<14>)
+     begin scope: 'gpu/converter/buffer1'
+     LUT3:I0->O            2   0.094   0.341  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ADDR[2]_PWR_16_o_equal_5_o<2>1 (U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ena_array<4>)
+     RAMB36_EXP:ENAU           0.414          U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/v5_noinit.ram/SP.SINGLE_PRIM36.SP
+    ----------------------------------------
+    Total                     10.088ns (6.068ns logic, 4.020ns route)
+                                       (60.2% logic, 39.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'USER_CLK'
+  Clock period: 1.614ns (frequency: 619.579MHz)
+  Total number of paths / destination ports: 24 / 24
+-------------------------------------------------------------------------
+Delay:               0.807ns (Levels of Logic = 0)
+  Source:            gpu/setup/idelay_ctrl_mod/rst200_sync_r_23 (FF)
+  Destination:       gpu/setup/idelay_ctrl_mod/rst200_sync_r_24 (FF)
+  Source Clock:      USER_CLK rising 2.0X
+  Destination Clock: USER_CLK rising 2.0X
+
+  Data Path: gpu/setup/idelay_ctrl_mod/rst200_sync_r_23 to gpu/setup/idelay_ctrl_mod/rst200_sync_r_24
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:C->Q              1   0.471   0.336  gpu/setup/idelay_ctrl_mod/rst200_sync_r_23 (gpu/setup/idelay_ctrl_mod/rst200_sync_r_23)
+     FDP:D                    -0.018          gpu/setup/idelay_ctrl_mod/rst200_sync_r_24
+    ----------------------------------------
+    Total                      0.807ns (0.471ns logic, 0.336ns route)
+                                       (58.4% logic, 41.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK_33MHZ_FPGA'
+  Clock period: 7.277ns (frequency: 137.419MHz)
+  Total number of paths / destination ports: 72780 / 3290
+-------------------------------------------------------------------------
+Delay:               7.277ns (Levels of Logic = 9)
+  Source:            gpu/video/oam/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_init.ram/TRUE_DP.SINGLE_PRIM18.TDP (RAM)
+  Destination:       gpu/video/state_0 (FF)
+  Source Clock:      CLK_33MHZ_FPGA rising
+  Destination Clock: CLK_33MHZ_FPGA rising
+
+  Data Path: gpu/video/oam/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_init.ram/TRUE_DP.SINGLE_PRIM18.TDP to gpu/video/state_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAMB18:CLKA->DOA8    13   2.180   0.776  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_init.ram/TRUE_DP.SINGLE_PRIM18.TDP (douta<4>)
+     end scope: 'gpu/video/oam'
+     LUT3:I0->O            3   0.094   0.800  gpu/video/Madd__add0000_lut<6>1 (gpu/video/Madd__add0000_lut<6>)
+     LUT5:I1->O            1   0.094   0.000  gpu/video/Mcompar_state_cmp_ge0000_lut<3> (gpu/video/Mcompar_state_cmp_ge0000_lut<3>)
+     MUXCY:S->O            1   0.372   0.000  gpu/video/Mcompar_state_cmp_ge0000_cy<3> (gpu/video/Mcompar_state_cmp_ge0000_cy<3>)
+     MUXCY:CI->O           4   0.254   0.592  gpu/video/Mcompar_state_cmp_ge0000_cy<4> (gpu/video/state_cmp_ge0000)
+     LUT2:I0->O            3   0.094   0.587  gpu/video/state_and00011 (gpu/video/state_and0001)
+     LUT6:I4->O            1   0.094   0.576  gpu/video/state_mux0000<5>1248_SW0 (N548)
+     LUT6:I4->O            1   0.094   0.576  gpu/video/state_mux0000<5>1248 (gpu/video/state_mux0000<5>1248)
+     LUT2:I0->O            1   0.094   0.000  gpu/video/state_0_rstpot (gpu/video/state_0_rstpot)
+     FDR:D                    -0.018          gpu/video/state_0
+    ----------------------------------------
+    Total                      7.277ns (3.370ns logic, 3.907ns route)
+                                       (46.3% logic, 53.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK_33MHZ_FPGA'
+  Total number of paths / destination ports: 397 / 397
+-------------------------------------------------------------------------
+Offset:              2.604ns (Levels of Logic = 2)
+  Source:            GPIO_SW_C (PAD)
+  Destination:       gpu/video/vram_addrA_12 (FF)
+  Destination Clock: CLK_33MHZ_FPGA rising
+
+  Data Path: GPIO_SW_C to gpu/video/vram_addrA_12
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           106   0.818   0.717  GPIO_SW_C_IBUF (GPIO_SW_C_IBUF)
+     LUT3:I1->O           13   0.094   0.402  gpu/video/vram_addrA_or00001 (gpu/video/vram_addrA_or0000)
+     FDR:R                     0.573          gpu/video/vram_addrA_0
+    ----------------------------------------
+    Total                      2.604ns (1.485ns logic, 1.119ns route)
+                                       (57.0% logic, 43.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK_27MHZ_FPGA'
+  Total number of paths / destination ports: 30 / 19
+-------------------------------------------------------------------------
+Offset:              5.574ns (Levels of Logic = 4)
+  Source:            gpu/converter/dvi_sync/y_8 (FF)
+  Destination:       dvi_de (PAD)
+  Source Clock:      CLK_27MHZ_FPGA rising 1.2X
+
+  Data Path: gpu/converter/dvi_sync/y_8 to dvi_de
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            10   0.471   0.838  gpu/converter/dvi_sync/y_8 (gpu/converter/dvi_sync/y_8)
+     LUT4:I0->O            2   0.094   0.485  gpu/converter/dvi_sync/border21 (gpu/converter/dvi_sync/N5)
+     LUT4:I3->O            1   0.094   0.710  gpu/converter/blank_b_SW0 (N178)
+     LUT6:I3->O            1   0.094   0.336  gpu/converter/blank_b (dvi_de_OBUF)
+     OBUF:I->O                 2.452          dvi_de_OBUF (dvi_de)
+    ----------------------------------------
+    Total                      5.574ns (3.205ns logic, 2.369ns route)
+                                       (57.5% logic, 42.5% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Delay:               2.788ns (Levels of Logic = 1)
+  Source:            gpu/dvi/delay_n:DATAOUT (PAD)
+  Destination:       dvi_xclk_n (PAD)
+
+  Data Path: gpu/dvi/delay_n:DATAOUT to dvi_xclk_n
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    IODELAY:DATAOUT        1   0.000   0.336  gpu/dvi/delay_n (dvi_xclk_n_OBUF)
+     OBUF:I->O                 2.452          dvi_xclk_n_OBUF (dvi_xclk_n)
+    ----------------------------------------
+    Total                      2.788ns (2.452ns logic, 0.336ns route)
+                                       (87.9% logic, 12.1% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 47.00 secs
+Total CPU time to Xst completion: 47.15 secs
+ 
+--> 
+
+Total memory usage is 446700 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  132 (   0 filtered)
+Number of infos    :  187 (   0 filtered)
+

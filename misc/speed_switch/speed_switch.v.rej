@@ -1,0 +1,35 @@
+diff a/gbc/misc/speed_switch/speed_switch.v b/gbc/misc/speed_switch/speed_switch.v	(rejected hunks)
+@@ -38,24 +38,26 @@
+ 
+ 	output O_IS_IN_DOUBLE_SPEEDMODE;
+ 	output reg O_DISABLE_CONTROLLER;
+-	output [7:0] O_RP_DATA;
++	output [7:0] O_KEY1_DATA;
+ 
+ 
+-	wire [7:0] rp_data;
+-	wire new_rp_data;
++	wire [7:0] key1_data;
++	wire new_key1_data;
+ 	wire prepare_speed_switch;
+ 	reg in_double_speedmode;
+ 	wire clock_8Mhz, clock_4Mhz, clock_16Mhz;
+ 
+ 	assign O_IS_IN_DOUBLE_SPEEDMODE = in_double_speedmode;
+-   assign prepare_speed_switch = rp_data[0] & new_rp_data;
++   assign prepare_speed_switch = key1_data[0] & new_key1_data;
+ 
+    	/*generate the different clocks for the system*/
+-   	my_clock_divider #(.DIV_SIZE(8), .DIV_OVER_TWO(4))
++   	my_clock_divider #(.DIV_SIZE(8), .DIV_OVER_TWO(2))
+    	cdiv4(.clock_out(clock_4Mhz), .clock_in(I_CLK33MHZ));
+ 
+-  	my_clock_divider #(.DIV_SIZE(4), .DIV_OVER_TWO(2))
+-   	cdiv8(.clock_out(O_MEM_CLOCK), .clock_in(I_CLK33MHZ));
++  	//my_clock_divider #(.DIV_SIZE(4), .DIV_OVER_TWO(2))
++   	//cdiv8(.clock_out(O_MEM_CLOCK), .clock_in(I_CLK33MHZ));
++    
++    assign O_MEM_CLOCK = I_CLK33MHZ;
+ 
+   ///	my_clock_divider #(.DIV_SIZE(4), .DIV_OVER_TWO(1))
+   ///	cdiv16(.clock_out(O_MEM_CLOCK), .clock_in(O_CLOCK_MAIN));

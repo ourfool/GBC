@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/ash/Documents/18545/gbc/top/ise/cartridge_sim_test_isim_beh.exe" -prj "C:/Users/ash/Documents/18545/gbc/top/ise/cartridge_sim_test_beh.prj" "cartridge_sim_test" "work.glbl" 

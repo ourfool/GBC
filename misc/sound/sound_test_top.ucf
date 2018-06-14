@@ -1,0 +1,29 @@
+NET  GPIO_LED_0           LOC="H18";   # Bank 3, Vcco=2.5V, No DCI
+NET  GPIO_LED_1           LOC="L18";   # Bank 3, Vcco=2.5V, No DCI
+NET  GPIO_LED_2           LOC="G15";   # Bank 3, Vcco=2.5V, No DCI
+NET  GPIO_LED_3           LOC="AD26";  # Bank 21, Vcco=1.8V, DCI using 49.9 ohm resistors
+NET  GPIO_LED_4           LOC="G16";   # Bank 3, Vcco=2.5V, No DCI
+NET  GPIO_LED_5           LOC="AD25";  # Bank 21, Vcco=1.8V, DCI using 49.9 ohm resistors
+NET  GPIO_LED_6           LOC="AD24";  # Bank 21, Vcco=1.8V, DCI using 49.9 ohm resistors
+NET  GPIO_LED_7           LOC="AE24";  # Bank 21, Vcco=1.8V, DCI using 49.9 ohm resistors
+
+NET "ac97_bitclk" LOC="AF18" | TNM_NET = ac97_bitclk;
+NET "ac97_sdata_in" LOC="AE18";
+NET "ac97_sdata_out" LOC="AG16";
+NET "ac97_sync" LOC="AF19";
+NET "ac97_reset_b" LOC="AG17";
+TIMESPEC TS_ac97_bitclk = PERIOD "ac97_bitclk" 12.288MHz HIGH 50%;
+NET  "pos1"            LOC="V8";    # Bank 18, Vcco=3.3V, No DCI
+NET  "pos2"            LOC="AJ7";   # Bank 18, Vcco=3.3V, No DCI
+
+NET  CLK_33MHZ_FPGA       LOC="AH17";  # Bank 4, Vcco=3.3V, No DCI
+NET  GPIO_SW_E            LOC="AK7";   # Bank 18, Vcco=3.3V, No DCI
+
+NET  GPIO_DIP_SW1         LOC="U25";   # Bank 15, Vcco=1.8V, DCI using 49.9 ohm resistors
+NET  GPIO_DIP_SW2         LOC="AG27";  # Bank 21, Vcco=1.8V, DCI using 49.9 ohm resistors
+NET  GPIO_DIP_SW3         LOC="AF25";  # Bank 21, Vcco=1.8V, DCI using 49.9 ohm resistors
+NET  GPIO_DIP_SW4         LOC="AF26";  # Bank 21, Vcco=1.8V, DCI using 49.9 ohm resistors
+NET  GPIO_DIP_SW5         LOC="AE27";  # Bank 21, Vcco=1.8V, DCI using 49.9 ohm resistors
+NET  GPIO_DIP_SW6         LOC="AE26";  # Bank 21, Vcco=1.8V, DCI using 49.9 ohm resistors
+NET  GPIO_DIP_SW7         LOC="AC25";  # Bank 21, Vcco=1.8V, DCI using 49.9 ohm resistors
+NET  GPIO_DIP_SW8         LOC="AC24";  # Bank 21, Vcco=1.8V, DCI using 49.9 ohm resistors

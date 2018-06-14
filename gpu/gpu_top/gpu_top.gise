@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="gpu_top.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="gpu_top.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="gpu_top.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="gpu_top.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="gpu_top.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="gpu_top.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="gpu_top_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="gpu_top_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="gpu_top_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1412541207" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1412541207">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1412541207" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-2343984212013232573" xil_pn:start_ts="1412541207">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1412541207" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-3257431945119951638" xil_pn:start_ts="1412541207">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1412541207" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1412541207">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1412541207" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="6254720772604084565" xil_pn:start_ts="1412541207">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1412541207" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-8458126479482839362" xil_pn:start_ts="1412541207">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1412541207" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-1314213830043127308" xil_pn:start_ts="1412541207">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1414423530" xil_pn:in_ck="-3294581031159271782" xil_pn:name="TRANEXT_xstsynthesize_virtex5" xil_pn:prop_ck="952635198081199240" xil_pn:start_ts="1414423527">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="gpu_top.lso"/>
+      <outfile xil_pn:name="gpu_top.prj"/>
+      <outfile xil_pn:name="gpu_top.syr"/>
+      <outfile xil_pn:name="gpu_top.xst"/>
+      <outfile xil_pn:name="gpu_top_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1412541213" xil_pn:in_ck="-8319858599558096011" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="1262981267491795072" xil_pn:start_ts="1412541213">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+  </transforms>
+
+</generated_project>

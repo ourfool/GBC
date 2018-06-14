@@ -1,0 +1,399 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="top" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Automatic `includes</ClosedNode>
+         <ClosedNode>/cpu C:|Users|ash|Documents|18545|gbc|cpu|src|cpu.v</ClosedNode>
+         <ClosedNode>/cpu_mem_integration C:|Users|ash|Documents|18545|gbc|top|cpu_memory_integration.v/cartsim - cartridge_sim</ClosedNode>
+         <ClosedNode>/cpu_mem_integration C:|Users|ash|Documents|18545|gbc|top|cpu_memory_integration.v/gbc_cpu - cpu</ClosedNode>
+         <ClosedNode>/cpu_mem_integration C:|Users|ash|Documents|18545|gbc|top|cpu_memory_integration.v/wram - working_memory_bank</ClosedNode>
+         <ClosedNode>/cpu_mem_integration C:|Users|ash|Documents|18545|gbc|top|cpu_memory_integration_synth.v/cartsim - cartridge_sim</ClosedNode>
+         <ClosedNode>/cpu_mem_integration C:|Users|ash|Documents|18545|gbc|top|cpu_memory_integration_synth.v/gbc_cpu - cpu</ClosedNode>
+         <ClosedNode>/cpu_mem_integration C:|Users|ash|Documents|18545|gbc|top|cpu_memory_integration_synth.v/gbc_cpu - cpu/gb80_decode - decode</ClosedNode>
+         <ClosedNode>/cpu_mem_integration C:|Users|ash|Documents|18545|gbc|top|cpu_memory_integration_synth.v/router - memory_router</ClosedNode>
+         <ClosedNode>/cpu_mem_integration C:|Users|ash|Documents|18545|gbc|top|cpu_memory_integration_synth.v/wram - working_memory_bank</ClosedNode>
+         <ClosedNode>/cpu_mem_integration C:|Users|ash|Documents|18545|gbc|top|gbc_top_synth.v</ClosedNode>
+         <ClosedNode>/dma C:|Users|ash|Documents|18545|gbc|cpu|src|dma.v</ClosedNode>
+         <ClosedNode>/gameboycolor C:|Users|ash|Documents|18545|gbc|top|gbc_top_synth.v/Controller - controller</ClosedNode>
+         <ClosedNode>/gameboycolor C:|Users|ash|Documents|18545|gbc|top|gbc_top_synth.v/Interrupt - interrupt</ClosedNode>
+         <ClosedNode>/gameboycolor C:|Users|ash|Documents|18545|gbc|top|gbc_top_synth.v/Timer - timer_module</ClosedNode>
+         <ClosedNode>/gameboycolor C:|Users|ash|Documents|18545|gbc|top|gbc_top_synth.v/cartsim - cartridge_sim</ClosedNode>
+         <ClosedNode>/gameboycolor C:|Users|ash|Documents|18545|gbc|top|gbc_top_synth.v/clk_mod - clock_module</ClosedNode>
+         <ClosedNode>/gameboycolor C:|Users|ash|Documents|18545|gbc|top|gbc_top_synth.v/dma - dma_controller</ClosedNode>
+         <ClosedNode>/gameboycolor C:|Users|ash|Documents|18545|gbc|top|gbc_top_synth.v/gbc_cpu - cpu</ClosedNode>
+         <ClosedNode>/gameboycolor C:|Users|ash|Documents|18545|gbc|top|gbc_top_synth.v/gbc_cpu - cpu/gb80_decode - decode</ClosedNode>
+         <ClosedNode>/gameboycolor C:|Users|ash|Documents|18545|gbc|top|gbc_top_synth.v/lcdram - lcdram_test</ClosedNode>
+         <ClosedNode>/gameboycolor C:|Users|ash|Documents|18545|gbc|top|gbc_top_synth.v/oam - oamram_test</ClosedNode>
+         <ClosedNode>/gameboycolor C:|Users|ash|Documents|18545|gbc|top|gbc_top_synth.v/ppu - gpu_top</ClosedNode>
+         <ClosedNode>/gameboycolor C:|Users|ash|Documents|18545|gbc|top|gbc_top_synth.v/ppu - gpu_top/dvi - dvi_module</ClosedNode>
+         <ClosedNode>/gameboycolor C:|Users|ash|Documents|18545|gbc|top|gbc_top_synth.v/ppu - gpu_top/setup - ugly_setup</ClosedNode>
+         <ClosedNode>/gameboycolor C:|Users|ash|Documents|18545|gbc|top|gbc_top_synth.v/ppu - gpu_top/video - video_module</ClosedNode>
+         <ClosedNode>/gameboycolor C:|Users|ash|Documents|18545|gbc|top|gbc_top_synth.v/serial_mod - serial</ClosedNode>
+         <ClosedNode>/gameboycolor C:|Users|ash|Documents|18545|gbc|top|gbc_top_synth.v/sound - AC97</ClosedNode>
+         <ClosedNode>/gameboycolor C:|Users|ash|Documents|18545|gbc|top|gbc_top_synth.v/sound - AC97/sc - sound_controller/sc1 - sound_channel1</ClosedNode>
+         <ClosedNode>/gameboycolor C:|Users|ash|Documents|18545|gbc|top|gbc_top_synth.v/sound - AC97/sc - sound_controller/sc1 - sound_channel1/waveGenCh1 - squarewave_generator</ClosedNode>
+         <ClosedNode>/gameboycolor C:|Users|ash|Documents|18545|gbc|top|gbc_top_synth.v/sound - AC97/sc - sound_controller/sc2 - sound_channel2</ClosedNode>
+         <ClosedNode>/gameboycolor C:|Users|ash|Documents|18545|gbc|top|gbc_top_synth.v/sound - AC97/sc - sound_controller/sc2 - sound_channel2/waveGenCh2 - squarewave_generator</ClosedNode>
+         <ClosedNode>/gameboycolor C:|Users|ash|Documents|18545|gbc|top|gbc_top_synth.v/sound - AC97/sc - sound_controller/sc3 - sound_channel3</ClosedNode>
+         <ClosedNode>/gameboycolor C:|Users|ash|Documents|18545|gbc|top|gbc_top_synth.v/sound - AC97/sc - sound_controller/sc4 - sound_channel4</ClosedNode>
+         <ClosedNode>/gameboycolor C:|Users|ash|Documents|18545|gbc|top|gbc_top_synth.v/wram - working_memory_bank</ClosedNode>
+         <ClosedNode>/lcd_top C:|Users|ash|Documents|18545|gbc|top|lcd_top.v</ClosedNode>
+         <ClosedNode>/lcdram_test C:|Users|ash|Documents|18545|gbc|memory|memory_testing_modules|lcdram_test.v</ClosedNode>
+         <ClosedNode>/oamram_test C:|Users|ash|Documents|18545|gbc|memory|memory_testing_modules|oam_test.v</ClosedNode>
+         <ClosedNode>/test_io_bus_parser C:|Users|ash|Documents|18545|gbc|memory|io_bus_parser|test_io_bus_parser.v</ClosedNode>
+         <ClosedNode>/timers C:|Users|ash|Documents|18545|gbc|cpu|src|timers.v</ClosedNode>
+         <ClosedNode>/working_memory_bank C:|Users|ash|Documents|18545|gbc|memory|working_memory_bank|working_memory_banking.v</ClosedNode>
+         <ClosedNode>PROJECT</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>gameboycolor (C:/Users/ash/Documents/18545/gbc/top/gbc_top_synth.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >24</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001a0000000020000000000000000000000000200000064ffffffff000000810000000300000002000001a00000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>gameboycolor (C:/Users/ash/Documents/18545/gbc/top/gbc_top_synth.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Generate Programming File</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001fc000000010000000100000000000000000000000064ffffffff000000810000000000000001000001fc0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Generate Programming File</CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>top.cdc</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >40</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000002f2000000040101000100000000000000000000000064ffffffff0000008100000000000000040000011600000001000000000000009d0000000100000000000000660000000100000000000000d90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>top.cdc</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/AC97 C:|Users|ash|Documents|18545|gbc|misc|sound|AC97.v</ClosedNode>
+         <ClosedNode>/AC97 C:|Users|ash|Documents|18545|gbc|misc|sound|AC97.v/sc - sound_controller</ClosedNode>
+         <ClosedNode>/Automatic `includes</ClosedNode>
+         <ClosedNode>/bram C:|Users|ash|Documents|18545|gbc|memory|bram|bram.v</ClosedNode>
+         <ClosedNode>/bram_cart C:|Users|ash|Documents|18545|gbc|memory|bram|bram_cart.v</ClosedNode>
+         <ClosedNode>/cartridge_sim_test C:|Users|ash|Documents|18545|gbc|memory|cartridge_sim|cartridge_sim_test.v</ClosedNode>
+         <ClosedNode>/clk_tb C:|Users|ash|Documents|18545|gbc|gpu|clk_tb.v</ClosedNode>
+         <ClosedNode>/cpu_auto_testbench C:|Users|ash|Documents|18545|gbc|cpu|src|cpu_auto_testbench.v</ClosedNode>
+         <ClosedNode>/cpu_auto_testbench C:|Users|ash|Documents|18545|gbc|cpu|src|cpu_auto_testbench_breakpoints.v</ClosedNode>
+         <ClosedNode>/cpu_auto_testbench C:|Users|ash|Documents|18545|gbc|cpu|src|cpu_auto_testbench_dma.v</ClosedNode>
+         <ClosedNode>/cpu_auto_testbench C:|Users|ash|Documents|18545|gbc|cpu|src|cpu_auto_testbench_interrupts.v</ClosedNode>
+         <ClosedNode>/cpu_auto_testbench C:|Users|ash|Documents|18545|gbc|cpu|src|cpu_auto_testbench_scroll.v</ClosedNode>
+         <ClosedNode>/cpu_auto_testbench C:|Users|ash|Documents|18545|gbc|cpu|src|cpu_auto_testbench_timers.v/dut - cpu</ClosedNode>
+         <ClosedNode>/cpu_auto_testbench C:|Users|ash|Documents|18545|gbc|cpu|src|cpu_auto_testbench_timers.v/dut - cpu/gb80_decode - decode</ClosedNode>
+         <ClosedNode>/cpu_auto_testbench C:|Users|ash|Documents|18545|gbc|cpu|src|cpu_auto_testbench_timers.v/tima_module - timers</ClosedNode>
+         <ClosedNode>/cpu_auto_testbench C:|Users|brock|Documents|18545|gbc|cpu|src|cpu_auto_testbench.v</ClosedNode>
+         <ClosedNode>/cpu_auto_testbench C:|Users|brock|Documents|18545|gbc|cpu|src|cpu_auto_testbench_breakpoints.v</ClosedNode>
+         <ClosedNode>/cpu_auto_testbench C:|Users|brock|Documents|18545|gbc|cpu|src|cpu_auto_testbench_dma.v</ClosedNode>
+         <ClosedNode>/cpu_auto_testbench C:|Users|brock|Documents|18545|gbc|cpu|src|cpu_auto_testbench_interrupts.v</ClosedNode>
+         <ClosedNode>/cpu_auto_testbench C:|Users|brock|Documents|18545|gbc|cpu|src|cpu_auto_testbench_scroll.v</ClosedNode>
+         <ClosedNode>/cpu_auto_testbench C:|Users|brock|Documents|18545|gbc|cpu|src|cpu_auto_testbench_timers.v</ClosedNode>
+         <ClosedNode>/cpu_mem_integration C:|Users|ash|Documents|18545|gbc|top|cpu_memory_integration.v/cartsim - cartridge_sim</ClosedNode>
+         <ClosedNode>/cpu_mem_integration C:|Users|ash|Documents|18545|gbc|top|cpu_memory_integration.v/dma - dma_controller</ClosedNode>
+         <ClosedNode>/cpu_mem_integration C:|Users|ash|Documents|18545|gbc|top|cpu_memory_integration.v/gbc_cpu - cpu</ClosedNode>
+         <ClosedNode>/cpu_mem_integration C:|Users|ash|Documents|18545|gbc|top|cpu_memory_integration.v/gbc_cpu - cpu/gb80_decode - decode</ClosedNode>
+         <ClosedNode>/cpu_mem_integration C:|Users|ash|Documents|18545|gbc|top|cpu_memory_integration.v/lcdram - lcdram_test</ClosedNode>
+         <ClosedNode>/cpu_mem_integration C:|Users|ash|Documents|18545|gbc|top|cpu_memory_integration.v/oam - oamram_test</ClosedNode>
+         <ClosedNode>/cpu_mem_integration C:|Users|ash|Documents|18545|gbc|top|cpu_memory_integration.v/wram - working_memory_bank</ClosedNode>
+         <ClosedNode>/cpu_mem_integration C:|Users|ash|Documents|18545|gbc|top|cpu_memory_integration_synth.v</ClosedNode>
+         <ClosedNode>/cpu_testbench C:|Users|ash|Documents|18545|gbc|cpu|src|cpu_testbench.v</ClosedNode>
+         <ClosedNode>/gameboycolorsim C:|Users|ash|Documents|18545|gbc|top|gbc_top.v</ClosedNode>
+         <ClosedNode>/gameboycolorsim C:|Users|ash|Documents|18545|gbc|top|gbc_top.v/gbc - gameboycolor/Controller - controller</ClosedNode>
+         <ClosedNode>/gameboycolorsim C:|Users|ash|Documents|18545|gbc|top|gbc_top.v/gbc - gameboycolor/Interrupt - interrupt</ClosedNode>
+         <ClosedNode>/gameboycolorsim C:|Users|ash|Documents|18545|gbc|top|gbc_top.v/gbc - gameboycolor/Timer - timer_module</ClosedNode>
+         <ClosedNode>/gameboycolorsim C:|Users|ash|Documents|18545|gbc|top|gbc_top.v/gbc - gameboycolor/cartsim - cartridge_sim</ClosedNode>
+         <ClosedNode>/gameboycolorsim C:|Users|ash|Documents|18545|gbc|top|gbc_top.v/gbc - gameboycolor/clk_mod - clock_module</ClosedNode>
+         <ClosedNode>/gameboycolorsim C:|Users|ash|Documents|18545|gbc|top|gbc_top.v/gbc - gameboycolor/dma - dma_controller</ClosedNode>
+         <ClosedNode>/gameboycolorsim C:|Users|ash|Documents|18545|gbc|top|gbc_top.v/gbc - gameboycolor/gbc_cpu - cpu</ClosedNode>
+         <ClosedNode>/gameboycolorsim C:|Users|ash|Documents|18545|gbc|top|gbc_top.v/gbc - gameboycolor/lcdram - lcdram_test</ClosedNode>
+         <ClosedNode>/gameboycolorsim C:|Users|ash|Documents|18545|gbc|top|gbc_top.v/gbc - gameboycolor/oam - oamram_test</ClosedNode>
+         <ClosedNode>/gameboycolorsim C:|Users|ash|Documents|18545|gbc|top|gbc_top.v/gbc - gameboycolor/ppu - gpu_top</ClosedNode>
+         <ClosedNode>/gameboycolorsim C:|Users|ash|Documents|18545|gbc|top|gbc_top.v/gbc - gameboycolor/ppu - gpu_top/converter - video_converter</ClosedNode>
+         <ClosedNode>/gameboycolorsim C:|Users|ash|Documents|18545|gbc|top|gbc_top.v/gbc - gameboycolor/ppu - gpu_top/dvi - dvi_module</ClosedNode>
+         <ClosedNode>/gameboycolorsim C:|Users|ash|Documents|18545|gbc|top|gbc_top.v/gbc - gameboycolor/ppu - gpu_top/setup - ugly_setup</ClosedNode>
+         <ClosedNode>/gameboycolorsim C:|Users|ash|Documents|18545|gbc|top|gbc_top.v/gbc - gameboycolor/ppu - gpu_top/video - video_module/oam - OAM</ClosedNode>
+         <ClosedNode>/gameboycolorsim C:|Users|ash|Documents|18545|gbc|top|gbc_top.v/gbc - gameboycolor/ppu - gpu_top/video - video_module/vram - VRAM</ClosedNode>
+         <ClosedNode>/gameboycolorsim C:|Users|ash|Documents|18545|gbc|top|gbc_top.v/gbc - gameboycolor/ppu - gpu_top/video - video_module/vram2 - VRAM2</ClosedNode>
+         <ClosedNode>/gameboycolorsim C:|Users|ash|Documents|18545|gbc|top|gbc_top.v/gbc - gameboycolor/sound - AC97</ClosedNode>
+         <ClosedNode>/gameboycolorsim C:|Users|ash|Documents|18545|gbc|top|gbc_top.v/gbc - gameboycolor/wram - working_memory_bank</ClosedNode>
+         <ClosedNode>/gpu_tb C:|Users|ash|Documents|18545|gbc|gpu|gpu_tb.v</ClosedNode>
+         <ClosedNode>/interrupt_test C:|Users|ash|Documents|18545|gbc|misc|interrupts|interrupt_test.v</ClosedNode>
+         <ClosedNode>/lcdram_test C:|Users|ash|Documents|18545|gbc|memory|memory_testing_modules|lcdram_test.v</ClosedNode>
+         <ClosedNode>/oamram_test C:|Users|ash|Documents|18545|gbc|memory|memory_testing_modules|oam_test.v</ClosedNode>
+         <ClosedNode>/test_io_bus_parser C:|Users|ash|Documents|18545|gbc|memory|io_bus_parser|test_io_bus_parser.v</ClosedNode>
+         <ClosedNode>/timer_module_test C:|Users|ash|Documents|18545|gbc|misc|timer|timer_test.v</ClosedNode>
+         <ClosedNode>/timer_module_test C:|Users|ash|Documents|18545|gbc|misc|timer|timer_test.v/tim - timer_module</ClosedNode>
+         <ClosedNode>/timers C:|Users|ash|Documents|18545|gbc|cpu|src|timers.v</ClosedNode>
+         <ClosedNode>PROJECT</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>timers (C:/Users/ash/Documents/18545/gbc/cpu/src/timers.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >4</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000016c000000020000000000000000000000000200000064ffffffff0000008100000003000000020000016c0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>timers (C:/Users/ash/Documents/18545/gbc/cpu/src/timers.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000151000000010000000100000000000000000000000064ffffffff000000810000000000000001000001510000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000151000000010000000100000000000000000000000064ffffffff000000810000000000000001000001510000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001fc000000010000000100000000000000000000000064ffffffff000000810000000000000001000001fc0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_CDC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001fc000000010000000100000000000000000000000064ffffffff000000810000000000000001000001fc0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Update All Schematic Files</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001fc000000010000000100000000000000000000000064ffffffff000000810000000000000001000001fc0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Update All Schematic Files</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="ManualCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>PROJECT</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>xc5vlx110t-1ff1136</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000ff000000020000000000000000000000000000000064ffffffff0000008100000000000000020000008f0000000100000000000000700000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>xc5vlx110t-1ff1136</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="ManualCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Automatic `includes</ClosedNode>
+         <ClosedNode>/cpu_mem_integration C:|Users|ash|Documents|18545|gbc|top|cpu_memory_integration_synth.v/cartsim - cartridge_sim</ClosedNode>
+         <ClosedNode>/cpu_mem_integration C:|Users|ash|Documents|18545|gbc|top|cpu_memory_integration_synth.v/gbc_cpu - cpu</ClosedNode>
+         <ClosedNode>/dma C:|Users|ash|Documents|18545|gbc|cpu|src|dma.v</ClosedNode>
+         <ClosedNode>/test_io_bus_parser C:|Users|ash|Documents|18545|gbc|memory|io_bus_parser|test_io_bus_parser.v</ClosedNode>
+         <ClosedNode>/timers C:|Users|ash|Documents|18545|gbc|cpu|src|timers.v</ClosedNode>
+         <ClosedNode>/working_memory_bank C:|Users|ash|Documents|18545|gbc|memory|working_memory_bank|working_memory_banking.v</ClosedNode>
+         <ClosedNode>PROJECT</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>dma.v (C:/Users/ash/Documents/18545/gbc/cpu/src/dma.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >45</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000017a000000020000000000000000000000000200000064ffffffff0000008100000003000000020000010a0000000100000003000000700000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>dma.v (C:/Users/ash/Documents/18545/gbc/cpu/src/dma.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="PostTransSim" guiview="Source" compilemode="ManualCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>PROJECT</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>cpu_auto_testbench.v (C:/Users/ash/Documents/18545/gbc/cpu/src/cpu_auto_testbench.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000017f000000020000000000000000000000000000000064ffffffff0000008100000000000000020000010f0000000100000000000000700000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>cpu_auto_testbench.v (C:/Users/ash/Documents/18545/gbc/cpu/src/cpu_auto_testbench.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="PostTransSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>ISim Simulator</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000014d000000010000000100000000000000000000000064ffffffff0000008100000000000000010000014d0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="PostMapSim" guiview="Source" compilemode="ManualCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>PROJECT</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>cpu_auto_testbench.v (C:/Users/ash/Documents/18545/gbc/cpu/src/cpu_auto_testbench.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000017f000000020000000000000000000000000000000064ffffffff0000008100000000000000020000010f0000000100000000000000700000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>cpu_auto_testbench.v (C:/Users/ash/Documents/18545/gbc/cpu/src/cpu_auto_testbench.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="PostMapSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>ISim Simulator</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000014d000000010000000100000000000000000000000064ffffffff0000008100000000000000010000014d0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="PostRouteSim" guiview="Source" compilemode="ManualCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>xc5vlx110t-1ff1136</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000ff000000020000000000000000000000000000000064ffffffff0000008100000000000000020000008f0000000100000000000000700000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>xc5vlx110t-1ff1136</CurrentItem>
+   </ItemView>
+   <ItemView engineview="PostRouteSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>ISim Simulator</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000014d000000010000000100000000000000000000000064ffffffff0000008100000000000000010000014d0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="PostRouteSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000014d000000010000000100000000000000000000000064ffffffff0000008100000000000000010000014d0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_NGC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Design Utilities</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001fc000000010000000100000000000000000000000064ffffffff000000810000000000000001000001fc0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Design Utilities</CurrentItem>
+   </ItemView>
+</Project>

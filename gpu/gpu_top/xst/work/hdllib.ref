@@ -1,0 +1,14 @@
+MO ddr2_idelay_ctrl NULL ../ddr2_idelay_ctrl.v vlg53/ddr2__idelay__ctrl.bin 1414423529
+MO scanline_ram NULL ../scanline_ram.v vlg64/scanline__ram.bin 1414423529
+MO iic_init NULL ../iic_init.v vlg18/iic__init.bin 1414423529
+MO gpu_top NULL ../gpu_top.v vlg46/gpu__top.bin 1414423529
+MO divider NULL ../divider.v vlg4B/divider.bin 1414423529
+MO video_converter NULL ../video_converter.v vlg1A/video__converter.bin 1414423529
+MO ugly_setup NULL ../ugly_setup.v vlg39/ugly__setup.bin 1414423529
+MO dvi_module NULL ../dvi_module.v vlg48/dvi__module.bin 1414423529
+MO x2_dcm NULL ../x2_dcm.v vlg6D/x2__dcm.bin 1414423529
+MO ddr2_idelay_ctrl_mod NULL ../ddr2_idelay_ctrl_mod.v vlg3A/ddr2__idelay__ctrl__mod.bin 1414423529
+MO video_module NULL ../video_module.v vlg64/video__module.bin 1414423529
+MO clk31p5_dcm NULL ../clk31p5_dcm.v vlg3A/clk31p5__dcm.bin 1414423529
+MO sync_gen NULL ../sync_gen.v vlg4A/sync__gen.bin 1414423529
+MO frame_buffer NULL ../frame_buffer.v vlg38/frame__buffer.bin 1414423529

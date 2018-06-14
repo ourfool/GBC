@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompilers" num="261" delta="new" ><arg fmt="%s" index="1">&quot;../gpu_top.v&quot; line 107 </arg>Connection to output port &apos;<arg fmt="%s" index="2">pixel_count</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 67 </arg>Connection to input port &apos;<arg fmt="%s" index="2">CE</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 67 </arg>Connection to input port &apos;<arg fmt="%s" index="2">R</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 67 </arg>Connection to input port &apos;<arg fmt="%s" index="2">S</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 68 </arg>Connection to input port &apos;<arg fmt="%s" index="2">CE</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 68 </arg>Connection to input port &apos;<arg fmt="%s" index="2">R</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 68 </arg>Connection to input port &apos;<arg fmt="%s" index="2">S</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 72 </arg>Connection to input port &apos;<arg fmt="%s" index="2">CE</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 72 </arg>Connection to input port &apos;<arg fmt="%s" index="2">R</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 72 </arg>Connection to input port &apos;<arg fmt="%s" index="2">S</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 73 </arg>Connection to input port &apos;<arg fmt="%s" index="2">CE</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 73 </arg>Connection to input port &apos;<arg fmt="%s" index="2">R</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 73 </arg>Connection to input port &apos;<arg fmt="%s" index="2">S</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 74 </arg>Connection to input port &apos;<arg fmt="%s" index="2">CE</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 74 </arg>Connection to input port &apos;<arg fmt="%s" index="2">R</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 74 </arg>Connection to input port &apos;<arg fmt="%s" index="2">S</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 75 </arg>Connection to input port &apos;<arg fmt="%s" index="2">CE</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 75 </arg>Connection to input port &apos;<arg fmt="%s" index="2">R</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 75 </arg>Connection to input port &apos;<arg fmt="%s" index="2">S</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 76 </arg>Connection to input port &apos;<arg fmt="%s" index="2">CE</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 76 </arg>Connection to input port &apos;<arg fmt="%s" index="2">R</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 76 </arg>Connection to input port &apos;<arg fmt="%s" index="2">S</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 77 </arg>Connection to input port &apos;<arg fmt="%s" index="2">CE</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 77 </arg>Connection to input port &apos;<arg fmt="%s" index="2">R</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 77 </arg>Connection to input port &apos;<arg fmt="%s" index="2">S</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 78 </arg>Connection to input port &apos;<arg fmt="%s" index="2">CE</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 78 </arg>Connection to input port &apos;<arg fmt="%s" index="2">R</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 78 </arg>Connection to input port &apos;<arg fmt="%s" index="2">S</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 79 </arg>Connection to input port &apos;<arg fmt="%s" index="2">CE</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 79 </arg>Connection to input port &apos;<arg fmt="%s" index="2">R</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 79 </arg>Connection to input port &apos;<arg fmt="%s" index="2">S</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 80 </arg>Connection to input port &apos;<arg fmt="%s" index="2">CE</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 80 </arg>Connection to input port &apos;<arg fmt="%s" index="2">R</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 80 </arg>Connection to input port &apos;<arg fmt="%s" index="2">S</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 81 </arg>Connection to input port &apos;<arg fmt="%s" index="2">CE</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 81 </arg>Connection to input port &apos;<arg fmt="%s" index="2">R</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 81 </arg>Connection to input port &apos;<arg fmt="%s" index="2">S</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 82 </arg>Connection to input port &apos;<arg fmt="%s" index="2">CE</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 82 </arg>Connection to input port &apos;<arg fmt="%s" index="2">R</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 82 </arg>Connection to input port &apos;<arg fmt="%s" index="2">S</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 83 </arg>Connection to input port &apos;<arg fmt="%s" index="2">CE</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 83 </arg>Connection to input port &apos;<arg fmt="%s" index="2">R</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;../dvi_module.v&quot; line 83 </arg>Connection to input port &apos;<arg fmt="%s" index="2">S</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="new" >&quot;<arg fmt="%s" index="1">../gpu_test_top.v</arg>&quot; line <arg fmt="%d" index="2">51</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">switches78</arg>&apos; of instance &apos;<arg fmt="%s" index="4">gpu</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="883" delta="new" >&quot;<arg fmt="%s" index="1">../video_module.v</arg>&quot; line <arg fmt="%d" index="2">585</arg>: Ignored duplicate item in case statement. 
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">ipcore_dir/OAM.v</arg>&quot; line <arg fmt="%d" index="2">244</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">OAM</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">ipcore_dir/VRAM.v</arg>&quot; line <arg fmt="%d" index="2">259</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">VRAM</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">ipcore_dir/VRAM2.v</arg>&quot; line <arg fmt="%d" index="2">274</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">VRAM2</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="1607" delta="new" >Contents of array &lt;<arg fmt="%s" index="1">bg_pallete_arr</arg>&gt; may be accessed with an index that does not cover the full array size.
+</msg>
+
+<msg type="info" file="Xst" num="1607" delta="new" >Contents of array &lt;<arg fmt="%s" index="1">spr_pallete_arr</arg>&gt; may be accessed with an index that does not cover the full array size.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">ipcore_dir/framebuffer1.v</arg>&quot; line <arg fmt="%d" index="2">104</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">framebuffer1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">ipcore_dir/framebuffer1.v</arg>&quot; line <arg fmt="%d" index="2">124</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">framebuffer1</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">i</arg>&gt; in unit &lt;<arg fmt="%s" index="2">video_module</arg>&gt; has a constant value of <arg fmt="%s" index="3">1000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">VRAM_BANK_SEL</arg>&gt; in unit &lt;<arg fmt="%s" index="2">video_module</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">LCDC</arg>&gt; in unit &lt;<arg fmt="%s" index="2">video_module</arg>&gt; has a constant value of <arg fmt="%s" index="3">10010001</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">SCY</arg>&gt; in unit &lt;<arg fmt="%s" index="2">video_module</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">SCX</arg>&gt; in unit &lt;<arg fmt="%s" index="2">video_module</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">LYC</arg>&gt; in unit &lt;<arg fmt="%s" index="2">video_module</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">BGP</arg>&gt; in unit &lt;<arg fmt="%s" index="2">video_module</arg>&gt; has a constant value of <arg fmt="%s" index="3">11111100</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">OBP0</arg>&gt; in unit &lt;<arg fmt="%s" index="2">video_module</arg>&gt; has a constant value of <arg fmt="%s" index="3">11111111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">OBP1</arg>&gt; in unit &lt;<arg fmt="%s" index="2">video_module</arg>&gt; has a constant value of <arg fmt="%s" index="3">11111111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">WY</arg>&gt; in unit &lt;<arg fmt="%s" index="2">video_module</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">WX</arg>&gt; in unit &lt;<arg fmt="%s" index="2">video_module</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">STAT_w</arg>&gt; in unit &lt;<arg fmt="%s" index="2">video_module</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">render_background</arg>&gt; in unit &lt;<arg fmt="%s" index="2">video_module</arg>&gt; has a constant value of <arg fmt="%s" index="3">1</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">sprite_y_size</arg>&gt; in unit &lt;<arg fmt="%s" index="2">video_module</arg>&gt; has a constant value of <arg fmt="%s" index="3">01000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">sprite_palette</arg>&gt; in unit &lt;<arg fmt="%s" index="2">video_module</arg>&gt; has a constant value of <arg fmt="%s" index="3">11111111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">int_lcdc_req</arg>&gt; in unit &lt;<arg fmt="%s" index="2">video_module</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;0&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">01101111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;1&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">11111011</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;2&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">01010110</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;3&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">10110101</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;4&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00110101</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;5&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">10101101</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;6&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00011100</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;7&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">11100111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;8&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">01101111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;9&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">11111011</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;10&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">01100010</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;11&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">01111111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;12&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00011001</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;13&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">01011110</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;14&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00011100</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;15&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">11100111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;16&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00101011</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;17&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">11110110</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;18&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;19&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00101100</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;20&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000001</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;21&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">11000101</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;22&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00011100</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;23&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">11100111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;24&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">01111110</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;25&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">11110111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;26&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">01111110</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;27&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">01110010</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;28&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">01111101</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;29&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">10001101</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;30&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00011100</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;31&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">11100111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;32&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">01101111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;33&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">11111011</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;34&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00011111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;35&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">11111111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;36&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000110</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;37&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00011111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;38&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00011100</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;39&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">11100111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;40&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">01101111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;41&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">11111011</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;42&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00011110</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;43&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">01011000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;44&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00001101</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;45&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">11110100</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;46&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00011100</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;47&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">11100111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;48&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">01101111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;49&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">11111011</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;50&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00111011</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;51&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">11110100</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;52&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00010110</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;53&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">11101011</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;54&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00011100</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;55&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">11100111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;56&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">01111111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;57&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">11111111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;58&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">01110010</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;59&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">01101000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;60&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">01000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;61&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">10100101</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;62&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bg_pallete_arr&lt;63&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;0&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">01101111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;1&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">11111011</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;2&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00101010</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;3&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">01111111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;4&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000100</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;5&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">11111111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;6&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;7&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;8&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">01101111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;9&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">11111011</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;10&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00101010</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;11&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">01111111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;12&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">01111101</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;13&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00101010</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;14&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;15&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;16&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">01101111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;17&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">11111011</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;18&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00101010</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;19&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">01111111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;20&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00001110</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;21&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">11100111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;22&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;23&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;24&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">01101111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;25&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">11111011</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;26&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00101010</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;27&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">01111111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;28&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00001101</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;29&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">01001111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;30&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;31&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;32&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">01101111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;33&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">11111011</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;34&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00101010</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;35&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">01111111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;36&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00011001</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;37&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">01011110</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;38&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;39&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;40&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">01111111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;41&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">11111111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;42&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">01111111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;43&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">11111111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;44&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00110101</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;45&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">10101101</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;46&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;47&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;48&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00101011</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;49&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">11110110</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;50&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;51&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00101100</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;52&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000001</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;53&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">11000101</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;54&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00011100</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;55&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">11100111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;56&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">01101111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;57&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">11111011</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;58&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00011110</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;59&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">01011000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;60&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00001101</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;61&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">11110100</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;62&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">00011100</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">spr_pallete_arr&lt;63&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">11100111</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bcps_reg&lt;7&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">X</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bcps_reg&lt;6&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">X</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bcps_reg&lt;5&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">X</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bcps_reg&lt;4&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">X</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bcps_reg&lt;3&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">X</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bcps_reg&lt;2&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">X</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bcps_reg&lt;1&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">X</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bcps_reg&lt;0&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">X</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">ocps_reg&lt;7&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">X</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">ocps_reg&lt;6&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">X</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">ocps_reg&lt;5&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">X</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">ocps_reg&lt;4&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">X</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">ocps_reg&lt;3&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">X</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">ocps_reg&lt;2&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">X</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">ocps_reg&lt;1&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">X</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">ocps_reg&lt;0&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">color_file</arg>&gt; has a constant value of <arg fmt="%s" index="3">X</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">tile_y_pos&lt;7:3&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">sprite_palette</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">sprite_location</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">sprite_attributes&lt;6&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">sprite_attributes&lt;3&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pixel_index</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">background_attributes&lt;7:6&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">background_attributes&lt;4&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">VBK</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">OCPS</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">OCPD</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">HDMA5</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">HDMA4</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">HDMA3</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">HDMA2</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">HDMA1</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">BCPS</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">BCPD</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">gb_hsync</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">write_enable</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">my_color&lt;15&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">last_write_addr</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">gb_last_hsync</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="643" delta="new" >&quot;<arg fmt="%s" index="1">../video_converter.v</arg>&quot; line <arg fmt="%d" index="2">182</arg>: The result of a <arg fmt="%d" index="3">8</arg>x<arg fmt="%d" index="4">8</arg>-bit multiplication is partially used. Only the <arg fmt="%d" index="5">15</arg> least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+</msg>
+
+<msg type="warning" file="Xst" num="643" delta="new" >&quot;<arg fmt="%s" index="1">../video_converter.v</arg>&quot; line <arg fmt="%d" index="2">188</arg>: The result of a <arg fmt="%d" index="3">32</arg>x<arg fmt="%d" index="4">9</arg>-bit multiplication is partially used. Only the <arg fmt="%d" index="5">15</arg> least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">idelay_ctrl_rdy</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">clk200_ready</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">switches78</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="1305" delta="new" >Output &lt;<arg fmt="%s" index="1">led_out</arg>&gt; is never assigned. Tied to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">sprite_y_pos</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">sprite_x_pos</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">sprite_pixel</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">sprite_num</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">sprite_data2</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">sprite_data1</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">oam_addrA</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">gb_pixel_cnt</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">dvi_sync_b</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">bg_pixel</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">mode_video</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">int_req</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">do_video</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="new" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">tile_x_pos_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">video</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;tile_x_pos_1&gt; &lt;tile_x_pos_2&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">tile_byte_offset1_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">video</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">oam_addrA_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">video</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">tile_x_pos_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">video</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">SDA_BUFFER_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">init</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">background_attributes_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">video</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">background_attributes_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">video</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">background_attributes_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">video</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">sprite_attributes_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">video</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">sprite_attributes_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">video</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">sprite_attributes_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">video</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tile_y_pos_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">video</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tile_y_pos_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">video</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tile_y_pos_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">video</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tile_y_pos_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">video</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tile_y_pos_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">video</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">reg_out</arg>&lt;<arg fmt="%d" index="2">7</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">video_module</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">video/sprite_attributes_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">gpu_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">video/sprite_attributes_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">gpu_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">video/sprite_attributes_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">gpu_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">video/background_attributes_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">gpu_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">video/background_attributes_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">gpu_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">video/background_attributes_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">gpu_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">video/tile_y_pos_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">gpu_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">video/tile_y_pos_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">gpu_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">video/tile_y_pos_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">gpu_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">video/tile_y_pos_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">gpu_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">video/tile_y_pos_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">gpu_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">SDA_BUFFER_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">iic_init</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">video/oam_addrA_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">gpu_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">video/tile_byte_offset1_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">gpu_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">video/tile_x_pos_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">gpu_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">video/tile_x_pos_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">gpu_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">video/tile_x_pos_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">gpu_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">video/pixel_data_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">gpu_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">converter/Mmult_buffer_pos_mult00011</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">gpu_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">converter/Maddsub_write_addr_mult0001_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">gpu_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="new" >Instance <arg fmt="%s" index="1">x2/DCM_2X_INST</arg> in unit <arg fmt="%s" index="2">ddr2_idelay_ctrl_mod</arg> of type <arg fmt="%s" index="3">DCM_BASE</arg> has been replaced by <arg fmt="%s" index="4">DCM_ADV</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="new" >Instance <arg fmt="%s" index="1">clk31p5_dcm_inst/DCM_31p5_INST</arg> in unit <arg fmt="%s" index="2">ugly_setup</arg> of type <arg fmt="%s" index="3">DCM_BASE</arg> has been replaced by <arg fmt="%s" index="4">DCM_ADV</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="new" >Instance <arg fmt="%s" index="1">converter/clock_mux_b2</arg> in unit <arg fmt="%s" index="2">gpu_top</arg> of type <arg fmt="%s" index="3">BUFGMUX</arg> has been replaced by <arg fmt="%s" index="4">BUFGCTRL</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="new" >Instance <arg fmt="%s" index="1">converter/clock_mux_b1</arg> in unit <arg fmt="%s" index="2">gpu_top</arg> of type <arg fmt="%s" index="3">BUFGMUX</arg> has been replaced by <arg fmt="%s" index="4">BUFGCTRL</arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">video/line_count_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gpu_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;converter/Maddsub_write_addr_mult0001_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">video/pixel_data_count_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gpu_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;converter/Maddsub_write_addr_mult00011_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">video/line_count_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gpu_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;converter/Maddsub_write_addr_mult0001_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">video/pixel_data_count_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gpu_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;converter/Maddsub_write_addr_mult00011_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">video/pixel_data_count_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gpu_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;converter/Maddsub_write_addr_mult00011_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">video/line_count_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gpu_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;converter/Maddsub_write_addr_mult0001_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">video/pixel_data_count_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gpu_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;converter/Maddsub_write_addr_mult00011_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">video/pixel_data_count_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gpu_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;converter/Maddsub_write_addr_mult00011_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">video/line_count_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gpu_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;converter/Maddsub_write_addr_mult0001_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">video/pixel_data_count_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gpu_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;converter/Maddsub_write_addr_mult00011_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">video/pixel_data_count_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gpu_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;converter/Maddsub_write_addr_mult00011_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">video/pixel_data_count_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gpu_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;converter/Maddsub_write_addr_mult00011_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">video/line_count_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gpu_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;converter/Maddsub_write_addr_mult0001_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">video/line_count_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gpu_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;converter/Maddsub_write_addr_mult0001_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">video/line_count_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gpu_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;converter/Maddsub_write_addr_mult0001_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">video/line_count_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">gpu_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;converter/Maddsub_write_addr_mult0001_1&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">video/oam_addrB_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">gpu_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">video/vram2_addrB_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">gpu_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">gpu/dvi/init/Done</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">gpu_test_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">gpu/video/int_vblank_req</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">gpu_test_top</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="741" delta="new" >HDL ADVISOR - A <arg fmt="%d" index="1">16</arg>-bit shift register was found for signal &lt;<arg fmt="%s" index="2">gpu/setup/gpuclk_rst_b_seq_15</arg>&gt; and currently occupies <arg fmt="%d" index="3">16</arg> logic cells (<arg fmt="%d" index="4">8</arg> slices). Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="5">32</arg> (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="741" delta="new" >HDL ADVISOR - A <arg fmt="%d" index="1">25</arg>-bit shift register was found for signal &lt;<arg fmt="%s" index="2">gpu/setup/idelay_ctrl_mod/rst200_sync_r_24</arg>&gt; and currently occupies <arg fmt="%d" index="3">25</arg> logic cells (<arg fmt="%d" index="4">12</arg> slices). Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="5">32</arg> (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="new" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+
